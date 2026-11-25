@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_retry">Try again</string>
+    <string name="ui_back">Back</string>
+    <string name="ui_error_title">Something went wrong</string>
+    <string name="ui_error_offline_title">You\'re offline</string>
+    <string name="ui_error_offline">Check your connection. Downloaded topics, flashcards and notes still work.</string>
+    <string name="ui_error_timeout">The network is slow right now. Please try again.</string>
+    <string name="ui_error_session">Your session has ended. Please sign in again.</string>
+    <string name="ui_error_premium">This is part of Prostuti Plus.</string>
+    <string name="ui_error_not_found">We couldn\'t find this. It may have been removed.</string>
+    <string name="ui_error_rate_limited">Too many requests. Please wait a moment.</string>
+    <string name="ui_error_server">Our server had a problem (%1$d). We\'re on it.</string>
+    <string name="ui_error_unknown">Unexpected error. Please try again.</string>
+    <string name="ui_offline_banner">Offline · showing downloaded content</string>
+
+    <string name="ui_provenance_official">Official</string>
+    <string name="ui_provenance_verified">Verified reconstruction</string>
+    <string name="ui_provenance_community">Community</string>
+    <string name="ui_provenance_official_desc">Published by the recruiting authority</string>
+    <string name="ui_provenance_verified_desc">Rebuilt from candidates\' recall and checked by our editors</string>
+    <string name="ui_provenance_community_desc">Submitted by students, not yet verified</string>
+
+    <string name="ui_difficulty_easy">Easy</string>
+    <string name="ui_difficulty_medium">Medium</string>
+    <string name="ui_difficulty_hard">Hard</string>
+
+    <string name="ui_mastery_not_started">Not started</string>
+    <string name="ui_mastery_weak">Weak</string>
+    <string name="ui_mastery_learning">Learning</string>
+    <string name="ui_mastery_proficient">Proficient</string>
+    <string name="ui_mastery_mastered">Mastered</string>
+
+    <string name="ui_explanation">Explanation</string>
+    <string name="ui_why_option_wrong">Why the other options are wrong</string>
+    <string name="ui_model_answer">Model answer</string>
+    <string name="ui_sources">Sources</string>
+    <string name="ui_asked_in">Asked in</string>
+    <string name="ui_passage">Read the passage</string>
+    <string name="ui_correct_answer">Correct answer</string>
+    <string name="ui_your_answer">Your answer</string>
+    <string name="ui_option_label">Option %1$s</string>
+    <string name="ui_multi_select_hint">Select all that apply</string>
+    <string name="ui_written_hint">Write your answer, then compare with the model answer.</string>
+    <string name="ui_offline_available">Available offline</string>
+    <string name="ui_why">Why: %1$s</string>
+    <string name="ui_formula">Formula</string>
+    <string name="ui_tip">Tip</string>
+    <string name="ui_remember">Remember</string>
+    <string name="ui_exam_trap">Exam trap</string>
+    <string name="ui_listen">Listen</string>
+    <string name="ui_watch">Watch</string>
+    <string name="ui_open_pdf">Open PDF</string>
+
+    <string name="ui_minutes_short">%1$s min</string>
+    <string name="ui_hours_minutes_short">%1$s h %2$s min</string>
+    <string name="ui_days_left">%1$s days left</string>
+    <string name="ui_today">Today</string>
+    <string name="ui_dev_sample">Development sample data</string>
+</resources>
