@@ -12,6 +12,17 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.outlined.MenuBook
+import androidx.compose.material.icons.automirrored.rounded.MenuBook
+import androidx.compose.material.icons.outlined.EditNote
+import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.Person
+import androidx.compose.material.icons.outlined.Style
+import androidx.compose.material.icons.rounded.EditNote
+import androidx.compose.material.icons.rounded.Home
+import androidx.compose.material.icons.rounded.Person
+import androidx.compose.material.icons.rounded.Style
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -156,11 +167,11 @@ private fun BottomBar(navController: NavHostController) {
 }
 
 enum class TopLevelTab(val route: Any, val label: Int, val icon: androidx.compose.ui.graphics.vector.ImageVector, val selectedIcon: androidx.compose.ui.graphics.vector.ImageVector) {
-    HOME(HomeRoute, R.string.nav_home, androidx.compose.material.icons.Icons.Outlined.Home, androidx.compose.material.icons.Icons.Rounded.Home),
-    LEARN(LearnRoute(), R.string.nav_learn, androidx.compose.material.icons.Icons.AutoMirrored.Outlined.MenuBook, androidx.compose.material.icons.Icons.AutoMirrored.Rounded.MenuBook),
-    PRACTICE(PracticeHubRoute, R.string.nav_practice, androidx.compose.material.icons.Icons.Outlined.EditNote, androidx.compose.material.icons.Icons.Rounded.EditNote),
-    REVISE(RevisionRoute, R.string.nav_revise, androidx.compose.material.icons.Icons.Outlined.Style, androidx.compose.material.icons.Icons.Rounded.Style),
-    ME(ProfileRoute, R.string.nav_me, androidx.compose.material.icons.Icons.Outlined.Person, androidx.compose.material.icons.Icons.Rounded.Person),
+    HOME(HomeRoute, R.string.nav_home, Icons.Outlined.Home, Icons.Rounded.Home),
+    LEARN(LearnRoute(), R.string.nav_learn, Icons.AutoMirrored.Outlined.MenuBook, Icons.AutoMirrored.Rounded.MenuBook),
+    PRACTICE(PracticeHubRoute, R.string.nav_practice, Icons.Outlined.EditNote, Icons.Rounded.EditNote),
+    REVISE(RevisionRoute, R.string.nav_revise, Icons.Outlined.Style, Icons.Rounded.Style),
+    ME(ProfileRoute, R.string.nav_me, Icons.Outlined.Person, Icons.Rounded.Person),
 }
 
 @Suppress("unused") private val a = Alignment.Center

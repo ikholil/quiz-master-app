@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_title">স্টাডি টিউটর</string>
+    <string name="as_remaining">আজ %2$sটির মধ্যে %1$sটি প্রশ্ন বাকি</string>
+    <string name="as_placeholder">সিলেবাস নিয়ে যেকোনো কিছু জিজ্ঞেস করুন…</string>
+    <string name="as_send">পাঠান</string>
+    <string name="as_thinking">অনুমোদিত উপকরণ থেকে খুঁজছি…</string>
+    <string name="as_disclaimer">উত্তরগুলো প্রস্তুতির অনুমোদিত স্টাডি ম্যাটেরিয়াল থেকে আসে। তবু টিউটর ভুল করতে পারে — তথ্যসূত্র দেখে নিন।</string>
+    <string name="as_context_question">এই প্রশ্ন সম্পর্কে</string>
+    <string name="as_context_topic">এই টপিক সম্পর্কে</string>
+    <string name="as_hello_title">পড়াশোনায় কীভাবে সাহায্য করতে পারি?</string>
+    <string name="as_hello_body">একটি বিষয় বাছাই করুন বা নিজের প্রশ্ন লিখুন।</string>
+    <string name="as_save_cards">%1$sটি ফ্ল্যাশকার্ড সংরক্ষণ</string>
+    <string name="as_cards_saved">আপনার ফ্ল্যাশকার্ডে সংরক্ষিত</string>
+    <string name="as_sources">তথ্যসূত্র</string>
+    <string name="as_limit">আজকের টিউটর প্রশ্ন শেষ। প্লাস-এ সীমাহীন প্রশ্ন করা যায়।</string>
+    <string name="as_upgrade">প্লাস দেখুন</string>
+    <string name="as_intent_bangla">সহজ বাংলায় বুঝিয়ে দিন</string>
+    <string name="as_intent_english">ইংরেজিতে ব্যাখ্যা</string>
+    <string name="as_intent_steps">ধাপে ধাপে সমাধান</string>
+    <string name="as_intent_why">এটি কেন সঠিক?</string>
+    <string name="as_intent_others">অন্যগুলো কেন ভুল?</string>
+    <string name="as_intent_hint">একটি ইঙ্গিত দিন</string>
+    <string name="as_intent_summary">সারসংক্ষেপ</string>
+    <string name="as_intent_notes">রিভিশন নোট বানান</string>
+    <string name="as_intent_cards">ফ্ল্যাশকার্ড বানান</string>
+    <string name="as_intent_practice">অনুশীলনের প্রশ্ন দিন</string>
+    <string name="as_intent_mistakes">আমার বারবার ভুলগুলো বুঝিয়ে দিন</string>
+    <string name="as_intent_session">প্রশ্ন করে করে শেখান</string>
+</resources>

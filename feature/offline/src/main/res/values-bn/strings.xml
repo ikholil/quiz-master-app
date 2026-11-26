@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="of_title">ডাউনলোড ও অফলাইন</string>
+    <string name="of_storage">স্টোরেজ</string>
+    <string name="of_downloads">ডাউনলোড %1$s</string>
+    <string name="of_cache">ক্যাশ %1$s</string>
+    <string name="of_free">ডিভাইসে %1$s খালি</string>
+    <string name="of_clear_cache">ক্যাশ মুছুন</string>
+    <string name="of_sync">সিঙ্ক</string>
+    <string name="of_pending">%1$sটি পরিবর্তন সিঙ্কের অপেক্ষায়</string>
+    <string name="of_all_synced">সবকিছু সিঙ্ক হয়েছে</string>
+    <string name="of_last_synced">সর্বশেষ সিঙ্ক %1$s</string>
+    <string name="of_sync_now">এখনই সিঙ্ক</string>
+    <string name="of_syncing">সিঙ্ক হচ্ছে…</string>
+    <string name="of_wifi_only">শুধু ওয়াই-ফাইতে ডাউনলোড</string>
+    <string name="of_wifi_only_desc">মোবাইল ডেটা বাঁচায়। ওয়াই-ফাই পেলে ডাউনলোড হবে।</string>
+    <string name="of_data_saver">ডেটা সেভার</string>
+    <string name="of_data_saver_desc">কম রেজোলিউশনের ছবি, ভিডিও প্রিভিউ নয়।</string>
+    <string name="of_items">ডাউনলোড করা কনটেন্ট</string>
+    <string name="of_empty_title">এখনও কিছু ডাউনলোড হয়নি</string>
+    <string name="of_empty_body">ইন্টারনেট ছাড়া পড়তে কোনো টপিক বা ফ্ল্যাশকার্ড ডেক খুলে ডাউনলোড আইকনে চাপুন।</string>
+    <string name="of_state_queued">অপেক্ষমাণ</string>
+    <string name="of_state_downloading">ডাউনলোড হচ্ছে %1$s</string>
+    <string name="of_state_failed">ব্যর্থ</string>
+    <string name="of_remove">ডাউনলোড মুছুন</string>
+    <string name="of_what_works">অফলাইনে যা চলবে</string>
+    <string name="of_works_list">ডাউনলোড করা টপিক ও তার প্রশ্ন, টপিক অনুশীলন, ফ্ল্যাশকার্ড, নোট ও ভুলের খাতা। অনুশীলনের নম্বর ফোনেই হিসাব হয় এবং পরে সিঙ্ক হয়।</string>
+    <string name="of_mock_note">সবার জন্য সময় ও মূল্যায়ন ন্যায্য রাখতে মডেল টেস্টে ইন্টারনেট লাগে।</string>
+</resources>

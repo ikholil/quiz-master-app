@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pl_title">পড়ার পরিকল্পনা</string>
+    <string name="pl_countdown">%2$s পর্যন্ত %1$s দিন</string>
+    <string name="pl_missed_title">%1$sটি কাজ বাদ পড়েছে</string>
+    <string name="pl_missed_body">কোনো দিনে চাপ না বাড়িয়ে পরের কয়েক দিনে ভাগ করে দিন।</string>
+    <string name="pl_recover">বাদ পড়া কাজ পুনর্বিন্যাস</string>
+    <string name="pl_recovered">বাদ পড়া কাজগুলো নতুন করে সাজানো হয়েছে।</string>
+    <string name="pl_changes">পরিকল্পনায় সাম্প্রতিক পরিবর্তন</string>
+    <string name="pl_day_summary">%2$sটির মধ্যে %1$sটি সম্পন্ন</string>
+    <string name="pl_no_tasks">বিশ্রামের দিন — কিছু নির্ধারিত নেই।</string>
+    <string name="pl_adjust">পরিকল্পনা বদলান</string>
+    <string name="pl_daily_time">দৈনিক পড়ার সময়</string>
+    <string name="pl_regenerate">নতুন করে পরিকল্পনা</string>
+    <string name="pl_regenerated">পরিকল্পনা নতুন করে তৈরি হয়েছে।</string>
+    <string name="pl_week">সপ্তাহ</string>
+    <string name="pl_month">মাস</string>
+    <string name="pl_explain">প্রতিটি কাজের পাশে লেখা আছে কেন তা রাখা হয়েছে। দুর্বল টপিক ও রিভিশন আগে আসে; পরীক্ষার আগের সপ্তাহ শুধু রিভিশনের জন্য।</string>
+</resources>

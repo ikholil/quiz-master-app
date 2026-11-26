@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reminder_channel">Study reminders</string>
+    <string name="reminder_title">Time for today\'s plan</string>
+    <string name="reminder_body">A few focused minutes now keep your streak alive.</string>
+</resources>

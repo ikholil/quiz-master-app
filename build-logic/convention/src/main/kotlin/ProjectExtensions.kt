@@ -34,6 +34,11 @@ internal fun Project.configureKotlinAndroid(extension: CommonExtension<*, *, *, 
         testOptions {
             unitTests.isIncludeAndroidResources = true
             unitTests.isReturnDefaultValues = true
+            // Optional: -Probolectric.repoUrl=<maven mirror> when Maven Central is unreachable or rate-limited.
+            val robolectricRepo = providers.gradleProperty("robolectric.repoUrl").orNull
+            unitTests.all { test ->
+                if (robolectricRepo != null) test.systemProperty("robolectric.dependency.repo.url", robolectricRepo)
+            }
         }
         packaging {
             resources.excludes += setOf("/META-INF/{AL2.0,LGPL2.1}", "/META-INF/LICENSE*")

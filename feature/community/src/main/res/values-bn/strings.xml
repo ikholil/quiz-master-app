@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cm_title">কমিউনিটি</string>
+    <string name="cm_discussions">আলোচনা</string>
+    <string name="cm_groups">স্টাডি গ্রুপ</string>
+    <string name="cm_all">সব পরীক্ষা</string>
+    <string name="cm_new">প্রশ্ন করুন</string>
+    <string name="cm_replies">%1$sটি উত্তর</string>
+    <string name="cm_upvotes">%1$s জনের কাজে লেগেছে</string>
+    <string name="cm_resolved">উত্তর মিলেছে</string>
+    <string name="cm_about_question">একটি প্রশ্ন সম্পর্কে</string>
+    <string name="cm_editor">সম্পাদক</string>
+    <string name="cm_accepted">সেরা উত্তর</string>
+    <string name="cm_reply_hint">সহায়ক উত্তর লিখুন…</string>
+    <string name="cm_send">উত্তর দিন</string>
+    <string name="cm_report">রিপোর্ট</string>
+    <string name="cm_reported">ধন্যবাদ। মডারেটররা দেখবেন।</string>
+    <string name="cm_report_title">এটি রিপোর্ট করবেন?</string>
+    <string name="cm_report_body">স্প্যাম, অশালীনতা বা তথ্য হিসেবে দেওয়া ভুল তথ্য রিপোর্ট করুন।</string>
+    <string name="cm_cancel">বাতিল</string>
+    <string name="cm_title_field">শিরোনাম</string>
+    <string name="cm_body_field">কোথায় আটকে গেছেন লিখুন</string>
+    <string name="cm_post">পোস্ট করুন</string>
+    <string name="cm_guidelines">সদয় ও সুনির্দিষ্ট থাকুন। ফাঁস হওয়া প্রশ্ন বা ব্যক্তিগত তথ্য শেয়ার করবেন না।</string>
+    <string name="cm_members">%1$s জন সদস্য</string>
+    <string name="cm_private">প্রাইভেট</string>
+    <string name="cm_join">যোগ দিন</string>
+    <string name="cm_leave">ছেড়ে দিন</string>
+    <string name="cm_leaderboard">লিডারবোর্ড</string>
+    <string name="cm_points">%1$s পয়েন্ট</string>
+    <string name="cm_you">আপনি</string>
+    <string name="cm_leaderboard_privacy">শুধু গ্রুপের সদস্যরা দেখেন। প্রাইভেসি সেটিংসে নিজেকে লুকাতে পারেন।</string>
+    <string name="cm_empty_title">এখনও কোনো আলোচনা নেই</string>
+    <string name="cm_empty_body">প্রথম প্রশ্নটি আপনিই করুন।</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pl_title">Study plan</string>
+    <string name="pl_countdown">%1$s days until %2$s</string>
+    <string name="pl_missed_title">%1$s tasks missed</string>
+    <string name="pl_missed_body">Spread them over the next few days without overloading any day.</string>
+    <string name="pl_recover">Reschedule missed tasks</string>
+    <string name="pl_recovered">Missed tasks were rescheduled.</string>
+    <string name="pl_changes">Recent plan changes</string>
+    <string name="pl_day_summary">%1$s of %2$s done</string>
+    <string name="pl_no_tasks">Rest day — nothing planned.</string>
+    <string name="pl_adjust">Adjust plan</string>
+    <string name="pl_daily_time">Daily study time</string>
+    <string name="pl_regenerate">Rebuild plan</string>
+    <string name="pl_regenerated">Your plan was rebuilt.</string>
+    <string name="pl_week">Week</string>
+    <string name="pl_month">Month</string>
+    <string name="pl_explain">Every task shows why it was scheduled. Weak topics and due revisions come first; the week before your exam is reserved for revision.</string>
+</resources>

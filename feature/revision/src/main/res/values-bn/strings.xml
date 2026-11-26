@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rv_title">রিভিশন</string>
+    <string name="rv_due_title">%1$sটি কার্ড বাকি</string>
+    <string name="rv_due_body">ভুলে যাওয়ার ঠিক আগে রিভিউ করলেই মনে থাকে।</string>
+    <string name="rv_nothing_due">সব রিভিউ শেষ</string>
+    <string name="rv_nothing_due_body">এখন কোনো কার্ড বাকি নেই। দ্রুত রিভিশন করুন বা নিজের কার্ড যোগ করুন।</string>
+    <string name="rv_review_now">এখনই রিভিউ</string>
+    <string name="rv_quick">দ্রুত রিভিশন</string>
+    <string name="rv_formulas">সূত্র</string>
+    <string name="rv_vocabulary">শব্দভাণ্ডার</string>
+    <string name="rv_facts">গুরুত্বপূর্ণ তথ্য</string>
+    <string name="rv_last_minute">শেষ মুহূর্তের</string>
+    <string name="rv_last_minute_desc">সবকিছু, দ্রুত — পরীক্ষার আগের রাতের জন্য</string>
+    <string name="rv_decks">ফ্ল্যাশকার্ড ডেক</string>
+    <string name="rv_deck_meta">%1$sটি কার্ড · %2$sটি বাকি</string>
+    <string name="rv_offline">অফলাইন</string>
+    <string name="rv_download">ডেক ডাউনলোড</string>
+    <string name="rv_mistakes">ভুলের খাতা</string>
+    <string name="rv_mistakes_meta">%1$sটি প্রশ্ন আবার চেষ্টা করুন</string>
+    <string name="rv_notes">আমার নোট</string>
+    <string name="rv_notes_meta">%1$sটি নোট</string>
+    <string name="rv_add_card">নতুন কার্ড</string>
+    <string name="rv_front">সামনে (প্রশ্ন বা শব্দ)</string>
+    <string name="rv_back">পেছনে (উত্তর)</string>
+    <string name="rv_deck">ডেক</string>
+    <string name="rv_save">কার্ড সংরক্ষণ</string>
+    <string name="rv_card_saved">কার্ড যোগ হয়েছে</string>
+    <string name="rv_origin_ai">এআই-তৈরি · অনুমোদিত</string>
+    <string name="rv_origin_user">আপনার কার্ড</string>
+
+    <string name="fc_title">ফ্ল্যাশকার্ড</string>
+    <string name="fc_progress">%2$s এর %1$s</string>
+    <string name="fc_tap">উত্তর দেখতে কার্ডে চাপুন</string>
+    <string name="fc_show">উত্তর দেখুন</string>
+    <string name="fc_again">আবার</string>
+    <string name="fc_hard">কঠিন</string>
+    <string name="fc_good">ভালো</string>
+    <string name="fc_easy">সহজ</string>
+    <string name="fc_next">পরের</string>
+    <string name="fc_done_title">সেশন শেষ</string>
+    <string name="fc_done_body">%1$sটি কার্ড রিভিউ করেছেন। ভুলে যাওয়ার ঠিক আগে এগুলো আবার আসবে।</string>
+    <string name="fc_done">সম্পন্ন</string>
+    <string name="fc_empty">এখানে এখনও কোনো কার্ড নেই।</string>
+    <string name="fc_in">%1$s পর</string>
+    <string name="fc_minutes">%1$s মি.</string>
+    <string name="fc_days">%1$s দিন</string>
+
+    <string name="nt_title">আমার নোট</string>
+    <string name="nt_new">নতুন নোট</string>
+    <string name="nt_empty_title">এখনও কোনো নোট নেই</string>
+    <string name="nt_empty_body">টপিক ও প্রশ্নে লেখা নোট এখানে দেখাবে, অফলাইনেও কাজ করবে।</string>
+    <string name="nt_note_title">শিরোনাম</string>
+    <string name="nt_body">নোট লিখুন…</string>
+    <string name="nt_save">সংরক্ষণ</string>
+    <string name="nt_delete">মুছুন</string>
+    <string name="nt_unsynced">এখনও সিঙ্ক হয়নি</string>
+</resources>

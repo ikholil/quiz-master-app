@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rv_title">Revise</string>
+    <string name="rv_due_title">%1$s cards due</string>
+    <string name="rv_due_body">Reviewing now, just before you forget, is what makes it stick.</string>
+    <string name="rv_nothing_due">All caught up</string>
+    <string name="rv_nothing_due_body">No cards are due. Try a quick revision or add your own cards.</string>
+    <string name="rv_review_now">Review now</string>
+    <string name="rv_quick">Quick revision</string>
+    <string name="rv_formulas">Formulas</string>
+    <string name="rv_vocabulary">Vocabulary</string>
+    <string name="rv_facts">Important facts</string>
+    <string name="rv_last_minute">Last-minute</string>
+    <string name="rv_last_minute_desc">Everything, fast — for the night before</string>
+    <string name="rv_decks">Flashcard decks</string>
+    <string name="rv_deck_meta">%1$s cards · %2$s due</string>
+    <string name="rv_offline">Offline</string>
+    <string name="rv_download">Download deck</string>
+    <string name="rv_mistakes">Mistake notebook</string>
+    <string name="rv_mistakes_meta">%1$s questions to retry</string>
+    <string name="rv_notes">My notes</string>
+    <string name="rv_notes_meta">%1$s notes</string>
+    <string name="rv_add_card">New card</string>
+    <string name="rv_front">Front (question or term)</string>
+    <string name="rv_back">Back (answer)</string>
+    <string name="rv_deck">Deck</string>
+    <string name="rv_save">Save card</string>
+    <string name="rv_card_saved">Card added</string>
+    <string name="rv_origin_ai">AI-generated · approved</string>
+    <string name="rv_origin_user">Your card</string>
+
+    <string name="fc_title">Flashcards</string>
+    <string name="fc_progress">%1$s of %2$s</string>
+    <string name="fc_tap">Tap the card to see the answer</string>
+    <string name="fc_show">Show answer</string>
+    <string name="fc_again">Again</string>
+    <string name="fc_hard">Hard</string>
+    <string name="fc_good">Good</string>
+    <string name="fc_easy">Easy</string>
+    <string name="fc_next">Next</string>
+    <string name="fc_done_title">Session complete</string>
+    <string name="fc_done_body">You reviewed %1$s cards. They\'ll come back right before you\'d forget them.</string>
+    <string name="fc_done">Done</string>
+    <string name="fc_empty">No cards here yet.</string>
+    <string name="fc_in">in %1$s</string>
+    <string name="fc_minutes">%1$s min</string>
+    <string name="fc_days">%1$s d</string>
+
+    <string name="nt_title">My notes</string>
+    <string name="nt_new">New note</string>
+    <string name="nt_empty_title">No notes yet</string>
+    <string name="nt_empty_body">Notes you write on topics and questions appear here, and work offline.</string>
+    <string name="nt_note_title">Title</string>
+    <string name="nt_body">Write your note…</string>
+    <string name="nt_save">Save</string>
+    <string name="nt_delete">Delete</string>
+    <string name="nt_unsynced">Not synced yet</string>
+</resources>

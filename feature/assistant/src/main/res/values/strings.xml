@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_title">Study tutor</string>
+    <string name="as_remaining">%1$s of %2$s questions left today</string>
+    <string name="as_placeholder">Ask anything about your syllabus…</string>
+    <string name="as_send">Send</string>
+    <string name="as_thinking">Looking through approved material…</string>
+    <string name="as_disclaimer">Answers come from Prostuti\'s approved study material. The tutor can still make mistakes — check the sources.</string>
+    <string name="as_context_question">About this question</string>
+    <string name="as_context_topic">About this topic</string>
+    <string name="as_hello_title">How can I help you study?</string>
+    <string name="as_hello_body">Pick a starting point or type your own question.</string>
+    <string name="as_save_cards">Save %1$s flashcards</string>
+    <string name="as_cards_saved">Saved to your flashcards</string>
+    <string name="as_sources">Sources</string>
+    <string name="as_limit">You\'ve used today\'s tutor questions. Plus gives you unlimited questions.</string>
+    <string name="as_upgrade">See Plus</string>
+    <string name="as_intent_bangla">Explain in simple Bangla</string>
+    <string name="as_intent_english">Explain in English</string>
+    <string name="as_intent_steps">Solve step by step</string>
+    <string name="as_intent_why">Why is this correct?</string>
+    <string name="as_intent_others">Why are the others wrong?</string>
+    <string name="as_intent_hint">Give me a hint</string>
+    <string name="as_intent_summary">Summarise</string>
+    <string name="as_intent_notes">Make revision notes</string>
+    <string name="as_intent_cards">Make flashcards</string>
+    <string name="as_intent_practice">Give me practice questions</string>
+    <string name="as_intent_mistakes">Explain my recurring mistakes</string>
+    <string name="as_intent_session">Quiz me interactively</string>
+</resources>

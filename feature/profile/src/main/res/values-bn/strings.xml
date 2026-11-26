@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pf_title">আমি</string>
+    <string name="pf_targets">প্রস্তুতি নিচ্ছেন</string>
+    <string name="pf_edit_prefs">লক্ষ্য ও পছন্দ বদলান</string>
+    <string name="pf_daily">দিনে %1$s</string>
+    <string name="pf_free">ফ্রি প্ল্যান</string>
+    <string name="pf_plus_active">%1$s · %2$s পর্যন্ত</string>
+    <string name="pf_upgrade">প্লাস নিন</string>
+    <string name="pf_achievements">অর্জন</string>
+    <string name="pf_menu_progress">অগ্রগতি</string>
+    <string name="pf_analytics">পারফরম্যান্স বিশ্লেষণ</string>
+    <string name="pf_mock_history">মডেল টেস্টের ইতিহাস</string>
+    <string name="pf_planner">পড়ার পরিকল্পনা</string>
+    <string name="pf_menu_tools">পড়ার টুল</string>
+    <string name="pf_exams">পরীক্ষার তালিকা</string>
+    <string name="pf_downloads">ডাউনলোড ও অফলাইন</string>
+    <string name="pf_community">কমিউনিটি ও গ্রুপ</string>
+    <string name="pf_tutor">স্টাডি টিউটর</string>
+    <string name="pf_menu_account">অ্যাকাউন্ট</string>
+    <string name="pf_notifications">নোটিফিকেশন</string>
+    <string name="pf_settings">সেটিংস</string>
+    <string name="pf_privacy">প্রাইভেসি</string>
+    <string name="pf_support">সাহায্য ও সহায়তা</string>
+    <string name="pf_account_data">আপনার তথ্য</string>
+    <string name="pf_sign_out">লগআউট</string>
+    <string name="pf_sign_out_confirm">প্রস্তুতি থেকে লগআউট করবেন? ডাউনলোড করা কনটেন্ট ফোনে থাকবে।</string>
+    <string name="pf_cancel">বাতিল</string>
+    <string name="pf_version">সংস্করণ %1$s</string>
+
+    <string name="st_title">সেটিংস</string>
+    <string name="st_language">অ্যাপের ভাষা</string>
+    <string name="st_theme">থিম</string>
+    <string name="st_theme_system">সিস্টেম</string>
+    <string name="st_theme_light">লাইট</string>
+    <string name="st_theme_dark">ডার্ক</string>
+    <string name="st_reminder">প্রতিদিনের পড়ার রিমাইন্ডার</string>
+    <string name="st_reminder_off">বন্ধ</string>
+    <string name="st_reminder_at">প্রতিদিন %1$s-এ</string>
+    <string name="st_data">ডেটা ও স্টোরেজ</string>
+
+    <string name="pv_title">প্রাইভেসি</string>
+    <string name="pv_leaderboards">গ্রুপ লিডারবোর্ডে আমাকে দেখান</string>
+    <string name="pv_leaderboards_desc">শুধু আপনার যোগ দেওয়া গ্রুপের সদস্যরা আপনার র‍্যাংক দেখবেন।</string>
+    <string name="pv_share">স্টাডি গ্রুপের সাথে অগ্রগতি শেয়ার</string>
+    <string name="pv_share_desc">গ্রুপ সদস্যরা আপনার ধারাবাহিকতা ও সাপ্তাহিক মিনিট দেখবেন।</string>
+    <string name="pv_personal">ব্যক্তিগতকৃত পরামর্শ</string>
+    <string name="pv_personal_desc">পরিকল্পনা ও পরামর্শে আমার অনুশীলনের ইতিহাস ব্যবহার করুন। বন্ধ করলে পরিকল্পনা সাধারণ হবে।</string>
+    <string name="pv_marketing">অফার ও ঘোষণা</string>
+    <string name="pv_marketing_desc">নতুন ফিচার ও ছাড় নিয়ে মাঝে মাঝে নোটিফিকেশন।</string>
+
+    <string name="ac_title">আপনার তথ্য</string>
+    <string name="ac_export">আমার তথ্যের কপি ডাউনলোড</string>
+    <string name="ac_export_desc">আপনার প্রোফাইল, উত্তর, নোট ও পরিকল্পনা নিয়ে একটি ফাইল তৈরি করা হবে। তৈরি হলে নোটিফিকেশন পাবেন।</string>
+    <string name="ac_export_requested">অনুরোধ করা হয়েছে। তৈরি হলে জানানো হবে।</string>
+    <string name="ac_delete">অ্যাকাউন্ট মুছে ফেলুন</string>
+    <string name="ac_delete_desc">১৪ দিনের অপেক্ষার পর আপনার অ্যাকাউন্ট ও তথ্য মুছে যাবে। এর মধ্যে আবার লগইন করলে অনুরোধ বাতিল হবে।</string>
+    <string name="ac_delete_reason">কেন চলে যাচ্ছেন? (ঐচ্ছিক)</string>
+    <string name="ac_delete_confirm">মুছে ফেলার অনুরোধ</string>
+    <string name="ac_delete_requested">মুছে ফেলার অনুরোধ করা হয়েছে। আপনি লগআউট হয়েছেন।</string>
+    <string name="ac_delete_title">অ্যাকাউন্ট মুছবেন?</string>
+
+    <string name="sb_title">প্রস্তুতি প্লাস</string>
+    <string name="sb_subtitle">শেষ মুহূর্তের প্রস্তুতির জন্য যা দরকার সব।</string>
+    <string name="sb_full_mocks">সব পূর্ণাঙ্গ মডেল টেস্ট</string>
+    <string name="sb_unlimited_ai">সীমাহীন টিউটর প্রশ্ন</string>
+    <string name="sb_offline">সীমাহীন অফলাইন ডাউনলোড</string>
+    <string name="sb_video">ভিডিও লেসন</string>
+    <string name="sb_analytics">উন্নত বিশ্লেষণ</string>
+    <string name="sb_price">৳%1$s</string>
+    <string name="sb_per_month">৳%1$s / মাস</string>
+    <string name="sb_months">%1$s মাস</string>
+    <string name="sb_month">১ মাস</string>
+    <string name="sb_popular">সবচেয়ে জনপ্রিয়</string>
+    <string name="sb_continue">পেমেন্টে এগিয়ে যান</string>
+    <string name="sb_payment_note">নিরাপদ পেমেন্ট পেজে বিকাশ, নগদ, রকেট বা কার্ডে পরিশোধ করুন।</string>
+    <string name="sb_active">আপনি %1$s-এ আছেন</string>
+
+    <string name="sp_title">সাহায্য ও সহায়তা</string>
+    <string name="sp_new">নতুন অনুরোধ</string>
+    <string name="sp_subject">বিষয়</string>
+    <string name="sp_message">সমস্যাটি লিখুন</string>
+    <string name="sp_send">পাঠান</string>
+    <string name="sp_sent">আপনার অনুরোধ পেয়েছি।</string>
+    <string name="sp_open">খোলা</string>
+    <string name="sp_in_progress">কাজ চলছে</string>
+    <string name="sp_resolved">সমাধান হয়েছে</string>
+    <string name="sp_empty">এখনও কোনো অনুরোধ নেই।</string>
+
+    <string name="nf_title">নোটিফিকেশন</string>
+    <string name="nf_empty">নতুন কিছু নেই।</string>
+</resources>

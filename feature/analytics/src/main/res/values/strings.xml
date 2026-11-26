@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="an_title">Performance</string>
+    <string name="an_week">7 days</string>
+    <string name="an_month">30 days</string>
+    <string name="an_all">All time</string>
+    <string name="an_accuracy">Accuracy</string>
+    <string name="an_questions">Questions</string>
+    <string name="an_avg_time">Avg. time</string>
+    <string name="an_negative">Lost to negatives</string>
+    <string name="an_syllabus">Syllabus done</string>
+    <string name="an_study_days">Study days (30)</string>
+    <string name="an_seconds">%1$s s</string>
+    <string name="an_accuracy_trend">Accuracy over time</string>
+    <string name="an_mock_trend">Model test scores</string>
+    <string name="an_subjects">By subject</string>
+    <string name="an_subject_detail">%1$s accuracy · %2$s attempted · %3$s per question</string>
+    <string name="an_speed_accuracy">Speed vs accuracy</string>
+    <string name="an_speed_accuracy_desc">Top-left is ideal: fast and accurate. Bottom-right needs both speed and accuracy work.</string>
+    <string name="an_faster">Faster</string>
+    <string name="an_more_accurate">More accurate</string>
+    <string name="an_mistakes">Repeated mistakes</string>
+    <string name="an_mistake_count">%1$s times</string>
+    <string name="an_retention">Revision effectiveness</string>
+    <string name="an_retention_desc">%1$s of reviewed flashcards remembered on the next review</string>
+    <string name="an_consistency">Study consistency</string>
+    <string name="an_consistency_desc">Last 4 weeks · darker means more minutes</string>
+    <string name="an_recommendations">What to do about it</string>
+    <string name="an_no_data">Not enough data yet</string>
+    <string name="an_no_data_desc">Answer at least 20 questions to see your analytics.</string>
+</resources>

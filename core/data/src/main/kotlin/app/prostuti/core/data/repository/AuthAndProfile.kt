@@ -98,6 +98,7 @@ class LiveProfileRepository @Inject constructor(
 @Singleton
 class LiveSettingsRepository @Inject constructor(
     private val prefs: UserPreferencesDataSource,
+    private val reminders: app.prostuti.core.data.sync.ReminderScheduler,
 ) : SettingsRepository {
     override val settings: Flow<AppSettings> = prefs.preferences.map { p ->
         AppSettings(
@@ -118,5 +119,8 @@ class LiveSettingsRepository @Inject constructor(
     override suspend fun setTheme(theme: ThemePreference) { prefs.setTheme(theme.name) }
     override suspend fun setDataSaver(enabled: Boolean) { prefs.setDataSaver(enabled) }
     override suspend fun setDownloadOnWifiOnly(enabled: Boolean) { prefs.setDownloadOnWifiOnly(enabled) }
-    override suspend fun setStudyReminderHour(hour: Int?) { prefs.setStudyReminderHour(hour) }
+    override suspend fun setStudyReminderHour(hour: Int?) {
+        prefs.setStudyReminderHour(hour)
+        reminders.schedule(hour)
+    }
 }

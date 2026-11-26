@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="an_title">পারফরম্যান্স</string>
+    <string name="an_week">৭ দিন</string>
+    <string name="an_month">৩০ দিন</string>
+    <string name="an_all">সব সময়</string>
+    <string name="an_accuracy">সঠিকতা</string>
+    <string name="an_questions">প্রশ্ন</string>
+    <string name="an_avg_time">গড় সময়</string>
+    <string name="an_negative">নেগেটিভে কাটা</string>
+    <string name="an_syllabus">সিলেবাস শেষ</string>
+    <string name="an_study_days">পড়ার দিন (৩০)</string>
+    <string name="an_seconds">%1$s সে.</string>
+    <string name="an_accuracy_trend">সময়ের সাথে সঠিকতা</string>
+    <string name="an_mock_trend">মডেল টেস্টের নম্বর</string>
+    <string name="an_subjects">বিষয়ভিত্তিক</string>
+    <string name="an_subject_detail">%1$s সঠিক · %2$sটি দিয়েছেন · প্রতিটিতে %3$s</string>
+    <string name="an_speed_accuracy">গতি বনাম সঠিকতা</string>
+    <string name="an_speed_accuracy_desc">উপরে-বাঁয়ে সবচেয়ে ভালো: দ্রুত ও নির্ভুল। নিচে-ডানে থাকলে গতি ও সঠিকতা দুটোতেই কাজ দরকার।</string>
+    <string name="an_faster">দ্রুত</string>
+    <string name="an_more_accurate">বেশি নির্ভুল</string>
+    <string name="an_mistakes">বারবার হওয়া ভুল</string>
+    <string name="an_mistake_count">%1$s বার</string>
+    <string name="an_retention">রিভিশনের কার্যকারিতা</string>
+    <string name="an_retention_desc">রিভিউ করা ফ্ল্যাশকার্ডের %1$s পরের রিভিউতে মনে ছিল</string>
+    <string name="an_consistency">নিয়মিততা</string>
+    <string name="an_consistency_desc">গত ৪ সপ্তাহ · গাঢ় রঙ মানে বেশি মিনিট</string>
+    <string name="an_recommendations">যা করবেন</string>
+    <string name="an_no_data">এখনও যথেষ্ট তথ্য নেই</string>
+    <string name="an_no_data_desc">বিশ্লেষণ দেখতে অন্তত ২০টি প্রশ্নের উত্তর দিন।</string>
+</resources>

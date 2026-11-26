@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cm_title">Community</string>
+    <string name="cm_discussions">Discussions</string>
+    <string name="cm_groups">Study groups</string>
+    <string name="cm_all">All exams</string>
+    <string name="cm_new">Ask a question</string>
+    <string name="cm_replies">%1$s replies</string>
+    <string name="cm_upvotes">%1$s helpful</string>
+    <string name="cm_resolved">Answered</string>
+    <string name="cm_about_question">About a question</string>
+    <string name="cm_editor">Editor</string>
+    <string name="cm_accepted">Best answer</string>
+    <string name="cm_reply_hint">Write a helpful reply…</string>
+    <string name="cm_send">Reply</string>
+    <string name="cm_report">Report</string>
+    <string name="cm_reported">Thanks. Moderators will review it.</string>
+    <string name="cm_report_title">Report this content?</string>
+    <string name="cm_report_body">Report spam, abuse, or wrong information presented as fact.</string>
+    <string name="cm_cancel">Cancel</string>
+    <string name="cm_title_field">Title</string>
+    <string name="cm_body_field">Describe what you\'re stuck on</string>
+    <string name="cm_post">Post</string>
+    <string name="cm_guidelines">Be kind and specific. Don\'t share leaked papers or personal information.</string>
+    <string name="cm_members">%1$s members</string>
+    <string name="cm_private">Private</string>
+    <string name="cm_join">Join</string>
+    <string name="cm_leave">Leave</string>
+    <string name="cm_leaderboard">Leaderboard</string>
+    <string name="cm_points">%1$s pts</string>
+    <string name="cm_you">You</string>
+    <string name="cm_leaderboard_privacy">Only group members see this. You can hide yourself in Privacy settings.</string>
+    <string name="cm_empty_title">No discussions yet</string>
+    <string name="cm_empty_body">Be the first to ask.</string>
+</resources>

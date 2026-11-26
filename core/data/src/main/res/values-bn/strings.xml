@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reminder_channel">পড়ার রিমাইন্ডার</string>
+    <string name="reminder_title">আজকের পরিকল্পনার সময় হয়েছে</string>
+    <string name="reminder_body">এখন কয়েক মিনিট মনোযোগ দিলেই ধারাবাহিকতা বজায় থাকবে।</string>
+</resources>

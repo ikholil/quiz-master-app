@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="of_title">Downloads &amp; offline</string>
+    <string name="of_storage">Storage</string>
+    <string name="of_downloads">Downloads %1$s</string>
+    <string name="of_cache">Cache %1$s</string>
+    <string name="of_free">%1$s free on device</string>
+    <string name="of_clear_cache">Clear cache</string>
+    <string name="of_sync">Sync</string>
+    <string name="of_pending">%1$s changes waiting to sync</string>
+    <string name="of_all_synced">Everything is synced</string>
+    <string name="of_last_synced">Last synced %1$s</string>
+    <string name="of_sync_now">Sync now</string>
+    <string name="of_syncing">Syncing…</string>
+    <string name="of_wifi_only">Download on Wi-Fi only</string>
+    <string name="of_wifi_only_desc">Saves mobile data. Downloads wait until you\'re on Wi-Fi.</string>
+    <string name="of_data_saver">Data saver</string>
+    <string name="of_data_saver_desc">Load lower-resolution images and skip video previews.</string>
+    <string name="of_items">Downloaded content</string>
+    <string name="of_empty_title">Nothing downloaded yet</string>
+    <string name="of_empty_body">Open a topic or flashcard deck and tap the download icon to study without internet.</string>
+    <string name="of_state_queued">Waiting</string>
+    <string name="of_state_downloading">Downloading %1$s</string>
+    <string name="of_state_failed">Failed</string>
+    <string name="of_remove">Remove download</string>
+    <string name="of_what_works">What works offline</string>
+    <string name="of_works_list">Downloaded topics and their questions, topic practice, flashcards, notes and your mistake notebook. Practice scores are calculated on your phone and synced later.</string>
+    <string name="of_mock_note">Model tests need an internet connection so that timing and scoring stay fair for everyone.</string>
+</resources>
