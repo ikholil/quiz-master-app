@@ -67,4 +67,5 @@
     <string name="ui_status_moved">সরানো হয়েছে</string>
     <string name="ui_mark_done">সম্পন্ন হিসেবে চিহ্নিত করুন</string>
     <string name="ui_mark_undone">অসম্পন্ন হিসেবে চিহ্নিত করুন</string>
+    <string name="ui_hours_short">%1$s ঘণ্টা</string>
 </resources>

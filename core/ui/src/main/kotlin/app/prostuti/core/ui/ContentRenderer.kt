@@ -117,19 +117,21 @@ private fun TableView(table: ContentBlock.Table) {
         Modifier.fillMaxWidth().clip(MaterialTheme.shapes.small).border(1.dp, line, MaterialTheme.shapes.small)
             .horizontalScroll(rememberScrollState()),
     ) {
-        TableRow(table.header.map { it.text() }, header = true)
-        table.rows.forEach { row -> TableRow(row.map { it.text() }, header = false) }
+        // Fixed column widths keep columns aligned and let the header band span the whole table.
+        val columnWidth = if (table.header.size <= 2) 160.dp else 130.dp
+        TableRow(table.header.map { it.text() }, header = true, columnWidth)
+        table.rows.forEach { row -> TableRow(row.map { it.text() }, header = false, columnWidth) }
     }
 }
 
 @Composable
-private fun TableRow(cells: List<String>, header: Boolean) {
+private fun TableRow(cells: List<String>, header: Boolean, columnWidth: androidx.compose.ui.unit.Dp) {
     Row(Modifier.background(if (header) MaterialTheme.colorScheme.surfaceVariant else Color.Transparent)) {
         cells.forEach { cell ->
             Text(
                 cell,
                 style = if (header) MaterialTheme.typography.labelLarge else MaterialTheme.typography.bodyMedium,
-                modifier = Modifier.widthIn(min = 110.dp, max = 220.dp).padding(horizontal = 12.dp, vertical = 10.dp),
+                modifier = Modifier.width(columnWidth).padding(horizontal = 12.dp, vertical = 10.dp),
             )
         }
     }

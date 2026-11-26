@@ -153,7 +153,7 @@ internal fun MockResultScreen(viewModel: MockResultViewModel = hiltViewModel()) 
                             r.passMarks?.let { pass ->
                                 PtCard(Modifier.weight(1f)) {
                                     val gap = pass - r.score
-                                    StatBlock(pass.loc(), stringResource(R.string.mr_pass))
+                                    StatBlock(pass.loc(), stringResource(R.string.mr_pass_label))
                                     Text(if (gap <= 0) stringResource(R.string.mr_passed) else stringResource(R.string.mr_failed, gap.loc()),
                                         style = MaterialTheme.typography.labelMedium, color = if (gap <= 0) ext.correct else ext.incorrect)
                                 }

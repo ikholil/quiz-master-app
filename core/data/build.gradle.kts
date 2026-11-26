@@ -18,4 +18,7 @@ dependencies {
     testImplementation(libs.robolectric)
     testImplementation(libs.androidx.test.core)
     testImplementation(libs.androidx.work.testing)
+    testImplementation(libs.okhttp.mockwebserver)
+    testImplementation(libs.retrofit.kotlinx.serialization)
+    testImplementation(libs.androidx.room.runtime)
 }

@@ -97,4 +97,6 @@ data class PendingOperationEntity(
     val payloadJson: String,
     val createdAt: Long,
     val attempts: Int,
+    /** Added in schema v2: last server rejection reason, shown in sync diagnostics. */
+    val lastError: String? = null,
 )

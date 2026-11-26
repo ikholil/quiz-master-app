@@ -9,7 +9,10 @@ import java.time.LocalDate
  * NOT authoritative data: production content always comes from the backend's editorial pipeline.
  * Exam references deliberately omit years so no question is falsely attributed to a specific paper.
  */
-internal fun t(en: String, bn: String? = null) = LocalizedText(en, bn)
+internal fun t(en: String, bn: String? = null) = LocalizedText(en, bn?.bnDigits())
+
+/** Sample Bengali text uses Bengali numerals, as the real backend's localized content does. */
+internal fun String.bnDigits(): String = map { if (it in '0'..'9') '০' + (it - '0') else it }.joinToString("")
 
 internal object SampleContent {
     val now: Instant = Instant.now()

@@ -191,14 +191,12 @@ internal fun TopicScreen(viewModel: TopicViewModel = hiltViewModel()) {
                     item {
                         Column(verticalArrangement = Arrangement.spacedBy(Spacing.sm)) {
                             PtButton(stringResource(R.string.ln_practice), { nav.navigate(Destination.Practice(PracticeMode.TOPIC, d.summary.id)) }, Modifier.fillMaxWidth(), leadingIcon = Icons.Rounded.EditNote)
-                            Row(horizontalArrangement = Arrangement.spacedBy(Spacing.sm)) {
-                                PtButton(
-                                    stringResource(if (d.summary.isCompleted) R.string.ln_completed else R.string.ln_mark_complete), viewModel::toggleComplete,
-                                    Modifier.weight(1f), style = if (d.summary.isCompleted) PtButtonStyle.Tonal else PtButtonStyle.Outline,
-                                    leadingIcon = if (d.summary.isCompleted) Icons.Rounded.CheckCircle else null,
-                                )
-                                PtButton(stringResource(R.string.ln_ask_tutor), { nav.navigate(Destination.Assistant(topicId = d.summary.id)) }, Modifier.weight(1f), style = PtButtonStyle.Outline, leadingIcon = Icons.Rounded.AutoAwesome)
-                            }
+                            PtButton(
+                                stringResource(if (d.summary.isCompleted) R.string.ln_completed else R.string.ln_mark_complete), viewModel::toggleComplete,
+                                Modifier.fillMaxWidth(), style = if (d.summary.isCompleted) PtButtonStyle.Tonal else PtButtonStyle.Outline,
+                                leadingIcon = if (d.summary.isCompleted) Icons.Rounded.CheckCircle else Icons.Rounded.RadioButtonUnchecked,
+                            )
+                            PtButton(stringResource(R.string.ln_ask_tutor), { nav.navigate(Destination.Assistant(topicId = d.summary.id)) }, Modifier.fillMaxWidth(), style = PtButtonStyle.Text, leadingIcon = Icons.Rounded.AutoAwesome)
                         }
                     }
                     item { NoteEditor(d.note.orEmpty()) { text -> viewModel.saveNote(text) { scope.launch { snackbar.showSnackbar(savedMsg) } } } }

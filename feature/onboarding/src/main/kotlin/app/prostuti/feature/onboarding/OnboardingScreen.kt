@@ -149,27 +149,18 @@ private fun ExamsStep(state: OnboardingState, vm: OnboardingViewModel) {
         Column(verticalArrangement = Arrangement.spacedBy(Spacing.sm)) {
             exams.forEach { exam ->
                 val selected = exam.id in state.selectedExamIds
-                Box {
-                    ChoiceCard(
-                        title = exam.name.text(),
-                        subtitle = exam.authority.text(),
-                        selected = selected,
-                        onClick = { vm.toggleExam(exam.id) },
-                        icon = categoryIcon(exam.category),
-                        role = Role.Checkbox,
-                    )
-                }
-                if (selected && state.selectedExamIds.size > 1) {
-                    val primary = state.primaryExamId == exam.id
-                    Row(Modifier.padding(start = Spacing.lg), verticalAlignment = Alignment.CenterVertically) {
-                        PtButton(
-                            stringResource(if (primary) R.string.ob_primary else R.string.ob_make_primary),
-                            { vm.setPrimary(exam.id) },
-                            style = PtButtonStyle.Text,
-                            leadingIcon = if (primary) Icons.Rounded.Star else Icons.Rounded.StarBorder,
-                            enabled = !primary,
-                        )
-                    }
+                val primary = selected && state.primaryExamId == exam.id && state.selectedExamIds.size > 1
+                ChoiceCard(
+                    title = exam.name.text(),
+                    subtitle = exam.authority.text(),
+                    selected = selected,
+                    onClick = { vm.toggleExam(exam.id) },
+                    icon = categoryIcon(exam.category),
+                    role = Role.Checkbox,
+                    badge = if (primary) ({ Pill(stringResource(R.string.ob_primary), color = MaterialTheme.colorScheme.onPrimary, container = MaterialTheme.colorScheme.primary, icon = Icons.Rounded.Star) }) else null,
+                )
+                if (selected && !primary && state.selectedExamIds.size > 1) {
+                    PtButton(stringResource(R.string.ob_make_primary), { vm.setPrimary(exam.id) }, style = PtButtonStyle.Text, leadingIcon = Icons.Rounded.StarBorder)
                 }
             }
         }

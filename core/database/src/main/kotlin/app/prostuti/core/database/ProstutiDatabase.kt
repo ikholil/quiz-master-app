@@ -16,7 +16,7 @@ import app.prostuti.core.database.entity.*
         WrongAnswerEntity::class,
         PendingOperationEntity::class,
     ],
-    version = 1,
+    version = 2,
     exportSchema = true,
 )
 abstract class ProstutiDatabase : RoomDatabase() {

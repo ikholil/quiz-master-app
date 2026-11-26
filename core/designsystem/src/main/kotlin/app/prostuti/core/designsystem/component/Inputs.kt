@@ -145,6 +145,7 @@ fun ChoiceCard(
     subtitle: String? = null,
     icon: ImageVector? = null,
     role: Role = Role.RadioButton,
+    badge: (@Composable () -> Unit)? = null,
 ) {
     val border = if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outlineVariant
     val bg = if (selected) MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.45f) else MaterialTheme.colorScheme.surfaceContainer
@@ -162,7 +163,9 @@ fun ChoiceCard(
         androidx.compose.foundation.layout.Column(Modifier.weight(1f)) {
             Text(title, style = MaterialTheme.typography.titleSmall)
             if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (badge != null) Box(Modifier.padding(top = 6.dp)) { badge() }
         }
-        androidx.compose.material3.RadioButton(selected = selected, onClick = null, modifier = Modifier.height(24.dp))
+        if (role == Role.Checkbox) androidx.compose.material3.Checkbox(checked = selected, onCheckedChange = null, modifier = Modifier.height(24.dp))
+        else androidx.compose.material3.RadioButton(selected = selected, onClick = null, modifier = Modifier.height(24.dp))
     }
 }

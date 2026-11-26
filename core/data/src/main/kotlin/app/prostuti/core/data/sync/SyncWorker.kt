@@ -55,7 +55,7 @@ class SyncWorker @AssistedInject constructor(
                     dao.delete(result.data.appliedIds)
                     val rejected = result.data.rejectedIds
                     if (rejected.isNotEmpty()) {
-                        dao.incrementAttempts(rejected)
+                        dao.markRejected(rejected, "rejected by server at ${result.data.serverTime}")
                         dao.delete(batch.filter { it.id in rejected && it.attempts + 1 >= MAX_ATTEMPTS }.map { it.id })
                     }
                     if (result.data.appliedIds.isEmpty()) break

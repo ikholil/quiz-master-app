@@ -39,7 +39,7 @@
     <string name="pr_feedback_desc">বন্ধ রাখলে পরীক্ষার মতো অনুশীলন হবে, উত্তর শেষে দেখাবে</string>
     <string name="pr_offline_only">শুধু ডাউনলোড করা প্রশ্ন</string>
 
-    <string name="pr_question_of">%2$s এর %1$s</string>
+    <string name="pr_question_of">%1$s / %2$s</string>
     <string name="pr_exit">অনুশীলন ছেড়ে যাবেন?</string>
     <string name="pr_exit_body">এ পর্যন্ত দেওয়া উত্তরগুলো হারিয়ে যাবে।</string>
     <string name="pr_leave">ছেড়ে যান</string>

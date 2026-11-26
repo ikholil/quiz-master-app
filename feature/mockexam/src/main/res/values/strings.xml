@@ -77,4 +77,5 @@
     <string name="mr_history_title">My attempts</string>
     <string name="mr_history_empty">Your submitted model tests appear here.</string>
     <string name="mk_negative_short">−%1$s for each wrong answer · skipping costs nothing</string>
+    <string name="mr_pass_label">Pass mark</string>
 </resources>

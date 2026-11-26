@@ -77,4 +77,5 @@
     <string name="mr_history_title">আমার পরীক্ষাগুলো</string>
     <string name="mr_history_empty">জমা দেওয়া মডেল টেস্টগুলো এখানে দেখাবে।</string>
     <string name="mk_negative_short">প্রতি ভুলে −%1$s · উত্তর না দিলে কিছু কাটা যাবে না</string>
+    <string name="mr_pass_label">পাস নম্বর</string>
 </resources>

@@ -49,7 +49,8 @@ fun percent(value: Float): String = "${(value * 100).roundToInt()}%".localizeDig
 fun minutesLabel(minutes: Int): String {
     val h = minutes / 60
     val m = minutes % 60
-    return if (h > 0) stringResource(R.string.ui_hours_minutes_short, h.loc(), m.loc())
+    return if (h > 0 && m == 0) stringResource(R.string.ui_hours_short, h.loc())
+    else if (h > 0) stringResource(R.string.ui_hours_minutes_short, h.loc(), m.loc())
     else stringResource(R.string.ui_minutes_short, m.loc())
 }
 

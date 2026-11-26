@@ -39,7 +39,7 @@
     <string name="pr_feedback_desc">Turn off to practise exam-style and see answers at the end</string>
     <string name="pr_offline_only">Use downloaded questions only</string>
 
-    <string name="pr_question_of">%1$s of %2$s</string>
+    <string name="pr_question_of">%1$s / %2$s</string>
     <string name="pr_exit">Leave practice?</string>
     <string name="pr_exit_body">Your answers so far will be lost.</string>
     <string name="pr_leave">Leave</string>

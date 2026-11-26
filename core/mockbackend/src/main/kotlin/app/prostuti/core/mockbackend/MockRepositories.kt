@@ -87,7 +87,8 @@ class MockProfileRepository @Inject constructor(private val store: MockStore) : 
 
     override suspend fun previewInitialPlan(preferences: PreparationPreferences): AppResult<List<PlanTask>> {
         latency(700)
-        return SamplePlan.days(store, preferences.dailyStudyMinutes, preferences.weakSubjectIds).take(3).flatMap { it.tasks }.asSuccess()
+        val today = LocalDate.now()
+        return SamplePlan.days(store, preferences.dailyStudyMinutes, preferences.weakSubjectIds).filter { !it.date.isBefore(today) }.take(3).flatMap { it.tasks }.asSuccess()
     }
 
     override suspend fun completeOnboarding(): AppResult<Unit> {

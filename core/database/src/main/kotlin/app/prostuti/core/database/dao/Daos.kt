@@ -151,6 +151,6 @@ interface PendingOperationDao {
     @Query("DELETE FROM pending_operations WHERE id IN (:ids)")
     suspend fun delete(ids: List<String>)
 
-    @Query("UPDATE pending_operations SET attempts = attempts + 1 WHERE id IN (:ids)")
-    suspend fun incrementAttempts(ids: List<String>)
+    @Query("UPDATE pending_operations SET attempts = attempts + 1, lastError = :error WHERE id IN (:ids)")
+    suspend fun markRejected(ids: List<String>, error: String)
 }

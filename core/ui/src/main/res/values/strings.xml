@@ -67,4 +67,5 @@
     <string name="ui_status_moved">Moved</string>
     <string name="ui_mark_done">Mark as done</string>
     <string name="ui_mark_undone">Mark as not done</string>
+    <string name="ui_hours_short">%1$s h</string>
 </resources>

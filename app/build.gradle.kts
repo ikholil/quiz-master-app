@@ -24,6 +24,7 @@ android {
     }
 
     buildFeatures.buildConfig = true
+    testOptions.unitTests.isIncludeAndroidResources = true
 
     signingConfigs {
         create("release") {
@@ -119,6 +120,11 @@ dependencies {
     implementation(libs.coil.compose)
 
     testImplementation(libs.junit)
+    testImplementation(libs.robolectric)
+    testImplementation(libs.androidx.test.core)
+    testImplementation(libs.compose.ui.test.junit4)
+    testImplementation(libs.hilt.android.testing)
+    kspTest(libs.hilt.compiler)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.androidx.test.runner)
     androidTestImplementation(libs.compose.ui.test.junit4)

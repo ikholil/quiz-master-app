@@ -97,18 +97,32 @@ class LiveProfileRepository @Inject constructor(
 
 @Singleton
 class LiveSettingsRepository @Inject constructor(
+    @dagger.hilt.android.qualifiers.ApplicationContext private val context: android.content.Context,
     private val prefs: UserPreferencesDataSource,
     private val reminders: app.prostuti.core.data.sync.ReminderScheduler,
 ) : SettingsRepository {
     override val settings: Flow<AppSettings> = prefs.preferences.map { p ->
         AppSettings(
-            language = if (p.languageTag == "en") AppLanguage.ENGLISH else AppLanguage.BENGALI,
+            language = when (p.languageTag ?: currentLocaleTag()) {
+                "en" -> AppLanguage.ENGLISH
+                else -> AppLanguage.BENGALI
+            },
             theme = runCatching { ThemePreference.valueOf(p.theme) }.getOrDefault(ThemePreference.SYSTEM),
             dataSaver = p.dataSaver,
             downloadOnWifiOnly = p.downloadOnWifiOnly,
             studyReminderHour = p.studyReminderHour,
         )
     }.distinctUntilChanged()
+
+    /**
+     * Until the student picks a language, content follows the app's current UI locale so that
+     * interface strings and question text never disagree.
+     */
+    private fun currentLocaleTag(): String {
+        val app = AppCompatDelegate.getApplicationLocales()
+        val locale = if (!app.isEmpty) app[0] else context.resources.configuration.locales[0]
+        return if (locale?.language == "bn") "bn" else "en"
+    }
 
     override suspend fun setLanguage(language: AppLanguage) {
         prefs.setLanguage(language.tag)
