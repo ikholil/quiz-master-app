@@ -287,8 +287,15 @@ class MockQuestionRepository @Inject constructor(private val store: MockStore) :
 class MockPracticeRepository @Inject constructor(private val store: MockStore) : PracticeRepository {
     override suspend fun start(config: PracticeConfig): AppResult<PracticeSession> {
         latency(500)
+        val setTopics = when (config.setId) {
+            "set-1971" -> listOf("t-1971")
+            "set-math" -> listOf("t-interest", "t-average", "t-primes", "t-identities")
+            "set-weak" -> SampleContent.topics.sortedBy { store.mastery(it.id).value }.take(6).map { it.id }
+            else -> emptyList()
+        }
         val pool = SampleQuestions.objective().filter { q ->
             val topic = SampleContent.topics.first { it.id == q.topicId }
+            (setTopics.isEmpty() || q.topicId in setTopics) &&
             (config.topicIds.isEmpty() || q.topicId in config.topicIds) &&
                 (config.subjectIds.isEmpty() || topic.subjectId in config.subjectIds) &&
                 (config.difficulty == null || q.difficulty == config.difficulty)

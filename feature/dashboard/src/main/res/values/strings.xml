@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_morning">Good morning</string>
+    <string name="home_afternoon">Good afternoon</string>
+    <string name="home_evening">Good evening</string>
+    <string name="home_notifications">Notifications</string>
+    <string name="home_tutor">Ask the tutor</string>
+    <string name="home_days_left">days to go</string>
+    <string name="home_no_date">Exam date not set</string>
+    <string name="home_syllabus">syllabus</string>
+    <string name="home_today_target">Today: %1$s of %2$s</string>
+    <string name="home_streak">%1$s-day streak</string>
+    <string name="home_continue">Continue learning</string>
+    <string name="home_today_plan">Today\'s plan</string>
+    <string name="home_full_plan">Full plan</string>
+    <string name="home_plan_empty">Nothing scheduled today. Enjoy the break or do a quick revision.</string>
+    <string name="home_due_title">%1$s items due for revision</string>
+    <string name="home_due_subtitle">Flashcards and mistakes you\'re about to forget</string>
+    <string name="home_weak">Needs attention</string>
+    <string name="home_weak_accuracy">%1$s accuracy</string>
+    <string name="home_practice">Practise</string>
+    <string name="home_sets">Recommended for you</string>
+    <string name="home_questions_min">%1$s questions · %2$s</string>
+    <string name="home_recent_mock">Latest model test</string>
+    <string name="home_mock_score">%1$s / %2$s</string>
+    <string name="home_mock_negative">−%1$s negative</string>
+    <string name="home_percentile">Top %1$s</string>
+    <string name="home_all_mocks">All model tests</string>
+    <string name="home_week">This week</string>
+    <string name="home_week_minutes">%1$s studied</string>
+    <string name="home_week_questions">%1$s questions</string>
+    <string name="home_week_accuracy">%1$s accuracy</string>
+    <string name="home_accuracy_up">▲ %1$s vs last week</string>
+    <string name="home_accuracy_down">▼ %1$s vs last week</string>
+    <string name="home_announcements">Announcements</string>
+    <string name="home_analytics">Detailed analytics</string>
+    <string name="home_mastery">Mastery</string>
+    <string name="home_offline">Offline</string>
+</resources>

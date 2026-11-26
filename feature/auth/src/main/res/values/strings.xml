@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auth_brand">Prostuti</string>
+    <string name="auth_tagline">Prepare for BCS, bank, NTRCA, primary and admission exams — with a plan that adapts to you.</string>
+    <string name="auth_point_plan">A daily plan built around your exam date</string>
+    <string name="auth_point_mock">Real exam-style model tests with negative marking</string>
+    <string name="auth_point_offline">Study offline on slow or no internet</string>
+    <string name="auth_continue_phone">Continue with phone number</string>
+    <string name="auth_use_email">Use email instead</string>
+    <string name="auth_terms">By continuing you agree to our Terms and Privacy Policy.</string>
+    <string name="auth_language">Language</string>
+
+    <string name="auth_phone_title">What\'s your mobile number?</string>
+    <string name="auth_phone_subtitle">We\'ll text you a 6-digit code. No password needed.</string>
+    <string name="auth_phone_label">Mobile number</string>
+    <string name="auth_phone_invalid">Enter an 11-digit number starting with 01</string>
+    <string name="auth_send_code">Send code</string>
+
+    <string name="auth_otp_title">Enter the code</string>
+    <string name="auth_otp_subtitle">Sent to %1$s</string>
+    <string name="auth_otp_field">Verification code, %1$d digits</string>
+    <string name="auth_verify">Verify</string>
+    <string name="auth_resend_in">Resend code in %1$s s</string>
+    <string name="auth_resend">Resend code</string>
+    <string name="auth_change_number">Change number</string>
+    <string name="auth_dev_otp">Development build: use code %1$s</string>
+
+    <string name="auth_email_title">Sign in with email</string>
+    <string name="auth_register_title">Create your account</string>
+    <string name="auth_tab_sign_in">Sign in</string>
+    <string name="auth_tab_register">Create account</string>
+    <string name="auth_name">Full name</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_password_hint">At least 8 characters</string>
+    <string name="auth_show_password">Show password</string>
+    <string name="auth_hide_password">Hide password</string>
+    <string name="auth_sign_in">Sign in</string>
+    <string name="auth_create">Create account</string>
+    <string name="auth_forgot">Forgot password?</string>
+    <string name="auth_reset_sent">If an account exists for %1$s, a reset link is on its way.</string>
+    <string name="auth_email_invalid">Enter a valid email address</string>
+    <string name="auth_name_required">Enter your name</string>
+</resources>

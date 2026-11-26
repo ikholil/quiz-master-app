@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prostuti</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_learn">Learn</string>
+    <string name="nav_practice">Practice</string>
+    <string name="nav_revise">Revise</string>
+    <string name="nav_me">Me</string>
+    <string name="dev_banner">Development build · sample data</string>
+    <string name="session_expired">Your session ended. Please sign in again.</string>
+</resources>

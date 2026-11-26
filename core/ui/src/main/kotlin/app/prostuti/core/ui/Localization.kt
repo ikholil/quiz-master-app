@@ -71,3 +71,8 @@ fun LocalDate.pretty(pattern: String = "d MMM yyyy"): String {
 }
 
 fun daysUntil(date: LocalDate, today: LocalDate = LocalDate.now()): Long = ChronoUnit.DAYS.between(today, date)
+
+/** Build facts screens may need, e.g. to show the development OTP in mock builds. */
+data class BuildInfo(val isMockBackend: Boolean, val versionName: String)
+
+val LocalBuildInfo = staticCompositionLocalOf { BuildInfo(isMockBackend = false, versionName = "") }

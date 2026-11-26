@@ -57,4 +57,14 @@
     <string name="ui_days_left">আর %1$s দিন</string>
     <string name="ui_today">আজ</string>
     <string name="ui_dev_sample">ডেভেলপমেন্ট নমুনা ডেটা</string>
+    <string name="ui_task_learn">পড়া</string>
+    <string name="ui_task_practice">অনুশীলন</string>
+    <string name="ui_task_revise">রিভিশন</string>
+    <string name="ui_task_mock">মডেল টেস্ট</string>
+    <string name="ui_task_flashcards">ফ্ল্যাশকার্ড</string>
+    <string name="ui_status_done">সম্পন্ন</string>
+    <string name="ui_status_missed">বাদ পড়েছে</string>
+    <string name="ui_status_moved">সরানো হয়েছে</string>
+    <string name="ui_mark_done">সম্পন্ন হিসেবে চিহ্নিত করুন</string>
+    <string name="ui_mark_undone">অসম্পন্ন হিসেবে চিহ্নিত করুন</string>
 </resources>

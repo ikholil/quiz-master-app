@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">প্রস্তুতি</string>
+    <string name="nav_home">হোম</string>
+    <string name="nav_learn">পড়ুন</string>
+    <string name="nav_practice">অনুশীলন</string>
+    <string name="nav_revise">রিভিশন</string>
+    <string name="nav_me">আমি</string>
+    <string name="dev_banner">ডেভেলপমেন্ট বিল্ড · নমুনা ডেটা</string>
+    <string name="session_expired">আপনার সেশন শেষ হয়েছে। আবার লগইন করুন।</string>
+</resources>

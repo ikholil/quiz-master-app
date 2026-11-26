@@ -17,6 +17,8 @@ data class PracticeConfig(
     /** Practice reveals the answer right after each question unless the student opts for exam-style. */
     val instantFeedback: Boolean = true,
     val offlineOnly: Boolean = false,
+    /** A curated or recommended practice set to draw questions from. */
+    val setId: String? = null,
 )
 
 data class PracticeSession(

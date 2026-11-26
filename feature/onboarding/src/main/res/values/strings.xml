@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ob_step">Step %1$s of %2$s</string>
+    <string name="ob_next">Continue</string>
+    <string name="ob_back">Back</string>
+    <string name="ob_skip">Skip for now</string>
+    <string name="ob_start">Start preparing</string>
+    <string name="ob_save">Save changes</string>
+    <string name="ob_edit_title">Preparation preferences</string>
+
+    <string name="ob_about_title">Let\'s set up your preparation</string>
+    <string name="ob_about_subtitle">This takes about a minute. You can change everything later.</string>
+    <string name="ob_name">Your name</string>
+    <string name="ob_language">Study in</string>
+
+    <string name="ob_exams_title">Which exams are you preparing for?</string>
+    <string name="ob_exams_subtitle">Pick one or more. Shared topics are studied once and count for every exam.</string>
+    <string name="ob_primary">Main goal</string>
+    <string name="ob_make_primary">Set as main goal</string>
+
+    <string name="ob_date_title">When is your %1$s exam?</string>
+    <string name="ob_date_subtitle">We plan backwards from this date, leaving the last week for revision.</string>
+    <string name="ob_date_unknown">I don\'t know the date yet</string>
+    <string name="ob_date_unknown_desc">We\'ll plan for 4 months and adjust when the circular is out.</string>
+    <string name="ob_date_pick">Pick a date</string>
+    <string name="ob_date_selected">%1$s · %2$s days from today</string>
+
+    <string name="ob_time_title">How much can you study each day?</string>
+    <string name="ob_time_subtitle">Be realistic — a plan you can keep beats an ambitious one you skip.</string>
+    <string name="ob_time_30">Light — fits around a full-time job</string>
+    <string name="ob_time_60">Steady — the most common choice</string>
+    <string name="ob_time_120">Focused — serious daily preparation</string>
+    <string name="ob_time_180">Intensive — full-time preparation</string>
+
+    <string name="ob_level_title">Where are you starting from?</string>
+    <string name="ob_level_subtitle">This sets the difficulty of your first practice sets.</string>
+    <string name="ob_level_beginner">Just starting</string>
+    <string name="ob_level_beginner_desc">New to this exam or coming back after a long break</string>
+    <string name="ob_level_intermediate">Some preparation</string>
+    <string name="ob_level_intermediate_desc">I know the syllabus and have practised a few months</string>
+    <string name="ob_level_advanced">Exam-ready</string>
+    <string name="ob_level_advanced_desc">Polishing weak areas and timing</string>
+
+    <string name="ob_subjects_title">Your strong and weak subjects</string>
+    <string name="ob_subjects_subtitle">Weak subjects get more time in your plan. Leave a subject as is if unsure.</string>
+    <string name="ob_weak">Weak</string>
+    <string name="ob_ok">Okay</string>
+    <string name="ob_strong">Strong</string>
+    <string name="ob_marks">%1$s marks</string>
+
+    <string name="ob_plan_title">Your first three days</string>
+    <string name="ob_plan_subtitle">Built from your goal, time and weak subjects. It adapts as you practise.</string>
+    <string name="ob_plan_loading">Building your plan…</string>
+</resources>

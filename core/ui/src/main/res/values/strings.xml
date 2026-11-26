@@ -57,4 +57,14 @@
     <string name="ui_days_left">%1$s days left</string>
     <string name="ui_today">Today</string>
     <string name="ui_dev_sample">Development sample data</string>
+    <string name="ui_task_learn">Study</string>
+    <string name="ui_task_practice">Practice</string>
+    <string name="ui_task_revise">Revise</string>
+    <string name="ui_task_mock">Model test</string>
+    <string name="ui_task_flashcards">Flashcards</string>
+    <string name="ui_status_done">Done</string>
+    <string name="ui_status_missed">Missed</string>
+    <string name="ui_status_moved">Moved</string>
+    <string name="ui_mark_done">Mark as done</string>
+    <string name="ui_mark_undone">Mark as not done</string>
 </resources>

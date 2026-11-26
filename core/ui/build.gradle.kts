@@ -10,4 +10,5 @@ dependencies {
     implementation(project(":core:domain"))
     api(libs.coil.compose)
     implementation(libs.androidx.lifecycle.runtime.compose)
+    api(libs.androidx.lifecycle.viewmodel.compose)
 }

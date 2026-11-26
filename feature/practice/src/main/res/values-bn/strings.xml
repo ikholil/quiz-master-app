@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pr_title">অনুশীলন</string>
+    <string name="pr_daily">আজকের চ্যালেঞ্জ</string>
+    <string name="pr_daily_desc">১০টি প্রশ্ন · ৮ মিনিট · প্রতিদিন নতুন</string>
+    <string name="pr_start">শুরু করুন</string>
+    <string name="pr_modes">অনুশীলনের ধরন</string>
+    <string name="pr_mode_topic">টপিক অনুশীলন</string>
+    <string name="pr_mode_topic_desc">সিলেবাস থেকে একটি টপিক বাছাই করুন</string>
+    <string name="pr_mode_weak">দুর্বল টপিক</string>
+    <string name="pr_mode_weak_desc">সবচেয়ে কম দক্ষতার টপিক থেকে প্রশ্ন</string>
+    <string name="pr_mode_wrong">আমার ভুলগুলো</string>
+    <string name="pr_mode_wrong_desc">ভুল হওয়া প্রশ্ন আবার চেষ্টা করুন</string>
+    <string name="pr_mode_speed">স্পিড ড্রিল</string>
+    <string name="pr_mode_speed_desc">ঘড়ির সাথে পাল্লা: প্রশ্নপ্রতি ৩০ সেকেন্ড</string>
+    <string name="pr_mode_accuracy">নির্ভুলতা ড্রিল</string>
+    <string name="pr_mode_accuracy_desc">সময়সীমা নেই; ভেবে উত্তর দিন, লক্ষ্য ১০০%</string>
+    <string name="pr_mode_mixed">মিশ্র বিষয়</string>
+    <string name="pr_mode_mixed_desc">পুরো সিলেবাস থেকে মিশিয়ে</string>
+    <string name="pr_mode_pyq">বিগত বছরের প্রশ্ন</string>
+    <string name="pr_mode_pyq_desc">শুধু অফিসিয়াল প্রশ্ন</string>
+    <string name="pr_mode_marathon">ম্যারাথন</string>
+    <string name="pr_mode_marathon_desc">এক বসায় ৫০টি প্রশ্ন</string>
+    <string name="pr_mode_custom">নিজের মতো অনুশীলন</string>
+    <string name="pr_mode_custom_desc">বিষয়, প্রশ্নসংখ্যা, কাঠিন্য ও সময় বাছাই করুন</string>
+    <string name="pr_mock_tests">মডেল টেস্ট</string>
+    <string name="pr_mock_tests_desc">নেগেটিভ মার্কিংসহ পূর্ণাঙ্গ পরীক্ষা</string>
+    <string name="pr_question_bank">প্রশ্ন ব্যাংক দেখুন</string>
+
+    <string name="pr_custom_title">আপনার অনুশীলন সাজান</string>
+    <string name="pr_subjects">বিষয়</string>
+    <string name="pr_all_subjects">সব বিষয়</string>
+    <string name="pr_count">প্রশ্ন: %1$sটি</string>
+    <string name="pr_difficulty">কাঠিন্য</string>
+    <string name="pr_any">যেকোনো</string>
+    <string name="pr_timer">সময়সীমা</string>
+    <string name="pr_no_timer">সীমা নেই</string>
+    <string name="pr_feedback">প্রতিটি প্রশ্নের পর উত্তর দেখান</string>
+    <string name="pr_feedback_desc">বন্ধ রাখলে পরীক্ষার মতো অনুশীলন হবে, উত্তর শেষে দেখাবে</string>
+    <string name="pr_offline_only">শুধু ডাউনলোড করা প্রশ্ন</string>
+
+    <string name="pr_question_of">%2$s এর %1$s</string>
+    <string name="pr_exit">অনুশীলন ছেড়ে যাবেন?</string>
+    <string name="pr_exit_body">এ পর্যন্ত দেওয়া উত্তরগুলো হারিয়ে যাবে।</string>
+    <string name="pr_leave">ছেড়ে যান</string>
+    <string name="pr_stay">চালিয়ে যান</string>
+    <string name="pr_check">উত্তর যাচাই</string>
+    <string name="pr_next">পরের প্রশ্ন</string>
+    <string name="pr_previous">আগের প্রশ্ন</string>
+    <string name="pr_skip">বাদ দিন</string>
+    <string name="pr_finish">শেষ করুন</string>
+    <string name="pr_submitting">উত্তর যাচাই হচ্ছে…</string>
+    <string name="pr_correct">সঠিক!</string>
+    <string name="pr_incorrect">হয়নি</string>
+    <string name="pr_offline_session">অফলাইন অনুশীলন · ফল পরে সিঙ্ক হবে</string>
+    <string name="pr_time_up">সময় শেষ</string>
+    <string name="pr_written_reveal">আদর্শ উত্তর দেখুন</string>
+
+    <string name="rs_title">ফলাফল</string>
+    <string name="rs_score">স্কোর</string>
+    <string name="rs_accuracy">সঠিকতা</string>
+    <string name="rs_time">সময়</string>
+    <string name="rs_correct">সঠিক</string>
+    <string name="rs_incorrect">ভুল</string>
+    <string name="rs_skipped">বাদ</string>
+    <string name="rs_next_step">পরবর্তী করণীয়</string>
+    <string name="rs_weak">যে টপিকে কাজ দরকার</string>
+    <string name="rs_review">উত্তর পর্যালোচনা</string>
+    <string name="rs_done">সম্পন্ন</string>
+    <string name="rs_retry_wrong">ভুলগুলো অনুশীলন</string>
+    <string name="rs_not_verified">এই ডিভাইসে মূল্যায়ন হয়েছে। অনলাইনে এলে সিঙ্ক হবে।</string>
+    <string name="rs_topic_score">%1$s / %2$s</string>
+    <string name="rs_praise_high">চমৎকার</string>
+    <string name="rs_praise_mid">ভালো অগ্রগতি</string>
+    <string name="rs_praise_low">চালিয়ে যান — এভাবেই শেখা হয়</string>
+</resources>

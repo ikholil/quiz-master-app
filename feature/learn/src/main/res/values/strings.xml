@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ln_title">Learn</string>
+    <string name="ln_browse_exams">All exams</string>
+    <string name="ln_no_target">Pick a target exam to see its syllabus.</string>
+    <string name="ln_choose_exam">Choose exam</string>
+    <string name="ln_overall">%1$s of %2$s topics done</string>
+    <string name="ln_subject_meta">%1$s chapters · %2$s topics</string>
+    <string name="ln_marks">%1$s marks</string>
+    <string name="ln_mastery">Mastery: %1$s</string>
+    <string name="ln_topic_meta">%1$s · %2$s questions</string>
+    <string name="ln_shared">In %1$s exams</string>
+    <string name="ln_done">Done</string>
+    <string name="ln_question_bank">Question bank</string>
+
+    <string name="ln_mark_complete">Mark as complete</string>
+    <string name="ln_completed">Completed</string>
+    <string name="ln_practice">Practise this topic</string>
+    <string name="ln_ask_tutor">Ask the tutor</string>
+    <string name="ln_materials">Study material</string>
+    <string name="ln_prereq">Learn these first</string>
+    <string name="ln_prereq_desc">This topic builds on them</string>
+    <string name="ln_shared_desc">Part of %1$s of your exams — one learning record for all of them.</string>
+    <string name="ln_note">My note</string>
+    <string name="ln_note_hint">Write what you want to remember…</string>
+    <string name="ln_note_save">Save note</string>
+    <string name="ln_note_saved">Note saved</string>
+    <string name="ln_download">Download for offline</string>
+    <string name="ln_downloaded">Available offline</string>
+    <string name="ln_download_started">Downloading. You can keep studying.</string>
+    <string name="ln_bookmark">Bookmark topic</string>
+    <string name="ln_premium">Plus</string>
+    <string name="ln_type_article">Notes</string>
+    <string name="ln_type_audio">Audio</string>
+    <string name="ln_type_video">Video</string>
+    <string name="ln_type_pdf">PDF</string>
+    <string name="ln_updated">Updated %1$s</string>
+    <string name="ln_summarize">Summarise with tutor</string>
+</resources>

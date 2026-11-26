@@ -176,12 +176,12 @@ fun WrongAnswerDto.toModel() = WrongAnswerEntry(question.toModel(), selectedOpti
 
 // ---- Practice ----
 fun PracticeConfig.toDto() = PracticeConfigDto(
-    mode.name, subjectIds, topicIds, questionCount, difficulty?.name, durationMinutes, instantFeedback,
+    mode.name, subjectIds, topicIds, questionCount, difficulty?.name, durationMinutes, instantFeedback, setId,
 )
 
 fun PracticeConfigDto.toModel() = PracticeConfig(
     mode.toEnum(PracticeMode.CUSTOM), subjectIds, topicIds, questionCount,
-    difficulty?.toEnum(Difficulty.MEDIUM), durationMinutes, instantFeedback,
+    difficulty?.toEnum(Difficulty.MEDIUM), durationMinutes, instantFeedback, setId = setId,
 )
 
 fun PracticeSessionDto.toModel() = PracticeSession(id, config.toModel(), questions.map { it.toModel() }, isOffline = false)

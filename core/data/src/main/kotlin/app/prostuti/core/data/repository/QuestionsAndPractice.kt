@@ -150,7 +150,8 @@ class LivePracticeRepository @Inject constructor(
                     ?.let { AppResult.Success(PracticeSession("offline-${UUID.randomUUID()}", config, it, isOffline = true)) }
                     ?: AppResult.Failure(AppError.NoConnection)
             }
-            else -> if (config.topicIds.isNotEmpty()) offlineQuestions.byTopics(config.topicIds, config.questionCount)
+            else -> if (config.setId != null) offlineQuestions.byOwner(config.setId!!)
+            else if (config.topicIds.isNotEmpty()) offlineQuestions.byTopics(config.topicIds, config.questionCount)
             else offlineQuestions.random(config.questionCount)
         }
         val questions = rows.map { NetworkJson.decodeFromString(QuestionDto.serializer(), it.payloadJson).toModel() }

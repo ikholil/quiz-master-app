@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_title">Exams</string>
+    <string name="ex_search">Search exams, e.g. BCS, bank, NTRCA</string>
+    <string name="ex_all">All</string>
+    <string name="ex_saved">Saved</string>
+    <string name="ex_cat_bcs">BCS</string>
+    <string name="ex_cat_gov">Govt jobs</string>
+    <string name="ex_cat_bank">Bank</string>
+    <string name="ex_cat_ntrca">NTRCA</string>
+    <string name="ex_cat_primary">Primary</string>
+    <string name="ex_cat_admission">Admission</string>
+    <string name="ex_cat_other">Other</string>
+    <string name="ex_target">Your target</string>
+    <string name="ex_deadline">%1$s · %2$s</string>
+    <string name="ex_empty_title">No exams found</string>
+    <string name="ex_empty_body">Try another name or clear the filters.</string>
+    <string name="ex_bookmark">Save exam</string>
+    <string name="ex_unbookmark">Remove from saved</string>
+    <string name="ex_compare">Compare</string>
+    <string name="ex_compare_selected">Compare %1$s exams</string>
+    <string name="ex_compare_hint">Select 2–3 exams to compare</string>
+    <string name="ex_compare_title">Syllabus comparison</string>
+    <string name="ex_shared_topics">%1$s topics are shared — study them once for all these exams.</string>
+    <string name="ex_subject">Subject</string>
+    <string name="ex_not_included">—</string>
+
+    <string name="ex_overview">Overview</string>
+    <string name="ex_stages">Stages &amp; marks</string>
+    <string name="ex_eligibility">Eligibility</string>
+    <string name="ex_dates">Important dates</string>
+    <string name="ex_notices">Official notices</string>
+    <string name="ex_marks">%1$s marks</string>
+    <string name="ex_minutes">%1$s min</string>
+    <string name="ex_negative">−%1$s per wrong answer</string>
+    <string name="ex_no_negative">No negative marking</string>
+    <string name="ex_pass">Pass mark %1$s</string>
+    <string name="ex_source">Source: %1$s · verified %2$s</string>
+    <string name="ex_open_syllabus">Study syllabus</string>
+    <string name="ex_mock_tests">Model tests</string>
+    <string name="ex_previous_papers">%1$s previous papers</string>
+    <string name="ex_add_target">Add to my targets</string>
+    <string name="ex_is_target">In your targets</string>
+    <string name="ex_target_added">Added to your targets. Your plan will include it.</string>
+</resources>

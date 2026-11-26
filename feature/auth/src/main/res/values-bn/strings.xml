@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auth_brand">প্রস্তুতি</string>
+    <string name="auth_tagline">বিসিএস, ব্যাংক, এনটিআরসিএ, প্রাথমিক ও ভর্তি পরীক্ষার প্রস্তুতি — আপনার মতো করে সাজানো পরিকল্পনায়।</string>
+    <string name="auth_point_plan">পরীক্ষার তারিখ ধরে প্রতিদিনের পরিকল্পনা</string>
+    <string name="auth_point_mock">নেগেটিভ মার্কিংসহ আসল পরীক্ষার মতো মডেল টেস্ট</string>
+    <string name="auth_point_offline">ধীর বা ইন্টারনেট ছাড়াও অফলাইনে পড়ুন</string>
+    <string name="auth_continue_phone">মোবাইল নম্বর দিয়ে শুরু করুন</string>
+    <string name="auth_use_email">ইমেইল ব্যবহার করুন</string>
+    <string name="auth_terms">চালিয়ে গেলে আপনি আমাদের শর্তাবলি ও গোপনীয়তা নীতিতে সম্মত হচ্ছেন।</string>
+    <string name="auth_language">ভাষা</string>
+
+    <string name="auth_phone_title">আপনার মোবাইল নম্বর কত?</string>
+    <string name="auth_phone_subtitle">আমরা ৬ সংখ্যার একটি কোড পাঠাব। পাসওয়ার্ড লাগবে না।</string>
+    <string name="auth_phone_label">মোবাইল নম্বর</string>
+    <string name="auth_phone_invalid">০১ দিয়ে শুরু ১১ সংখ্যার নম্বর দিন</string>
+    <string name="auth_send_code">কোড পাঠান</string>
+
+    <string name="auth_otp_title">কোডটি লিখুন</string>
+    <string name="auth_otp_subtitle">%1$s নম্বরে পাঠানো হয়েছে</string>
+    <string name="auth_otp_field">যাচাই কোড, %1$d সংখ্যা</string>
+    <string name="auth_verify">যাচাই করুন</string>
+    <string name="auth_resend_in">%1$s সেকেন্ড পর আবার পাঠানো যাবে</string>
+    <string name="auth_resend">আবার কোড পাঠান</string>
+    <string name="auth_change_number">নম্বর পরিবর্তন করুন</string>
+    <string name="auth_dev_otp">ডেভেলপমেন্ট বিল্ড: কোড %1$s ব্যবহার করুন</string>
+
+    <string name="auth_email_title">ইমেইল দিয়ে লগইন</string>
+    <string name="auth_register_title">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="auth_tab_sign_in">লগইন</string>
+    <string name="auth_tab_register">নতুন অ্যাকাউন্ট</string>
+    <string name="auth_name">পূর্ণ নাম</string>
+    <string name="auth_email">ইমেইল</string>
+    <string name="auth_password">পাসওয়ার্ড</string>
+    <string name="auth_password_hint">কমপক্ষে ৮ অক্ষর</string>
+    <string name="auth_show_password">পাসওয়ার্ড দেখান</string>
+    <string name="auth_hide_password">পাসওয়ার্ড লুকান</string>
+    <string name="auth_sign_in">লগইন</string>
+    <string name="auth_create">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="auth_forgot">পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="auth_reset_sent">%1$s এর জন্য অ্যাকাউন্ট থাকলে রিসেট লিংক পাঠানো হয়েছে।</string>
+    <string name="auth_email_invalid">সঠিক ইমেইল ঠিকানা দিন</string>
+    <string name="auth_name_required">আপনার নাম লিখুন</string>
+</resources>

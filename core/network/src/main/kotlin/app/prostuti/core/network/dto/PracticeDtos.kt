@@ -11,6 +11,7 @@ data class PracticeConfigDto(
     val difficulty: String? = null,
     val durationMinutes: Int? = null,
     val instantFeedback: Boolean = true,
+    val setId: String? = null,
 )
 
 @Serializable data class PracticeSessionDto(val id: String, val config: PracticeConfigDto, val questions: List<QuestionDto>)

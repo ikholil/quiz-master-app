@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_title">পরীক্ষাসমূহ</string>
+    <string name="ex_search">পরীক্ষা খুঁজুন, যেমন বিসিএস, ব্যাংক, এনটিআরসিএ</string>
+    <string name="ex_all">সব</string>
+    <string name="ex_saved">সংরক্ষিত</string>
+    <string name="ex_cat_bcs">বিসিএস</string>
+    <string name="ex_cat_gov">সরকারি চাকরি</string>
+    <string name="ex_cat_bank">ব্যাংক</string>
+    <string name="ex_cat_ntrca">এনটিআরসিএ</string>
+    <string name="ex_cat_primary">প্রাথমিক</string>
+    <string name="ex_cat_admission">ভর্তি</string>
+    <string name="ex_cat_other">অন্যান্য</string>
+    <string name="ex_target">আপনার লক্ষ্য</string>
+    <string name="ex_deadline">%1$s · %2$s</string>
+    <string name="ex_empty_title">কোনো পরীক্ষা পাওয়া যায়নি</string>
+    <string name="ex_empty_body">অন্য নাম লিখুন বা ফিল্টার সরান।</string>
+    <string name="ex_bookmark">পরীক্ষা সংরক্ষণ</string>
+    <string name="ex_unbookmark">সংরক্ষিত থেকে সরান</string>
+    <string name="ex_compare">তুলনা</string>
+    <string name="ex_compare_selected">%1$sটি পরীক্ষা তুলনা করুন</string>
+    <string name="ex_compare_hint">তুলনার জন্য ২–৩টি পরীক্ষা বাছাই করুন</string>
+    <string name="ex_compare_title">সিলেবাস তুলনা</string>
+    <string name="ex_shared_topics">%1$sটি টপিক কমন — একবার পড়লেই সব পরীক্ষায় কাজে লাগবে।</string>
+    <string name="ex_subject">বিষয়</string>
+    <string name="ex_not_included">—</string>
+
+    <string name="ex_overview">সংক্ষেপে</string>
+    <string name="ex_stages">ধাপ ও নম্বর বণ্টন</string>
+    <string name="ex_eligibility">যোগ্যতা</string>
+    <string name="ex_dates">গুরুত্বপূর্ণ তারিখ</string>
+    <string name="ex_notices">অফিসিয়াল বিজ্ঞপ্তি</string>
+    <string name="ex_marks">%1$s নম্বর</string>
+    <string name="ex_minutes">%1$s মিনিট</string>
+    <string name="ex_negative">প্রতি ভুলে −%1$s</string>
+    <string name="ex_no_negative">নেগেটিভ মার্কিং নেই</string>
+    <string name="ex_pass">পাস নম্বর %1$s</string>
+    <string name="ex_source">সূত্র: %1$s · যাচাই %2$s</string>
+    <string name="ex_open_syllabus">সিলেবাস পড়ুন</string>
+    <string name="ex_mock_tests">মডেল টেস্ট</string>
+    <string name="ex_previous_papers">%1$sটি পূর্ববর্তী প্রশ্নপত্র</string>
+    <string name="ex_add_target">আমার লক্ষ্যে যোগ করুন</string>
+    <string name="ex_is_target">আপনার লক্ষ্যে আছে</string>
+    <string name="ex_target_added">লক্ষ্যে যোগ হয়েছে। পরিকল্পনায় এটি অন্তর্ভুক্ত হবে।</string>
+</resources>

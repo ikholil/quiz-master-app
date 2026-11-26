@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_morning">শুভ সকাল</string>
+    <string name="home_afternoon">শুভ অপরাহ্ন</string>
+    <string name="home_evening">শুভ সন্ধ্যা</string>
+    <string name="home_notifications">নোটিফিকেশন</string>
+    <string name="home_tutor">টিউটরকে জিজ্ঞেস করুন</string>
+    <string name="home_days_left">দিন বাকি</string>
+    <string name="home_no_date">পরীক্ষার তারিখ ঠিক হয়নি</string>
+    <string name="home_syllabus">সিলেবাস</string>
+    <string name="home_today_target">আজ: %2$s এর মধ্যে %1$s</string>
+    <string name="home_streak">টানা %1$s দিন</string>
+    <string name="home_continue">যেখানে থেমেছিলেন</string>
+    <string name="home_today_plan">আজকের পরিকল্পনা</string>
+    <string name="home_full_plan">পুরো পরিকল্পনা</string>
+    <string name="home_plan_empty">আজ কিছু নির্ধারিত নেই। বিশ্রাম নিন বা দ্রুত রিভিশন করুন।</string>
+    <string name="home_due_title">রিভিশনের জন্য %1$sটি বাকি</string>
+    <string name="home_due_subtitle">যে ফ্ল্যাশকার্ড আর ভুলগুলো ভুলে যাওয়ার পথে</string>
+    <string name="home_weak">মনোযোগ দরকার</string>
+    <string name="home_weak_accuracy">%1$s সঠিক</string>
+    <string name="home_practice">অনুশীলন</string>
+    <string name="home_sets">আপনার জন্য প্রস্তাবিত</string>
+    <string name="home_questions_min">%1$sটি প্রশ্ন · %2$s</string>
+    <string name="home_recent_mock">সর্বশেষ মডেল টেস্ট</string>
+    <string name="home_mock_score">%1$s / %2$s</string>
+    <string name="home_mock_negative">−%1$s নেগেটিভ</string>
+    <string name="home_percentile">শীর্ষ %1$s</string>
+    <string name="home_all_mocks">সব মডেল টেস্ট</string>
+    <string name="home_week">এই সপ্তাহ</string>
+    <string name="home_week_minutes">%1$s পড়েছেন</string>
+    <string name="home_week_questions">%1$sটি প্রশ্ন</string>
+    <string name="home_week_accuracy">%1$s সঠিক</string>
+    <string name="home_accuracy_up">▲ গত সপ্তাহের চেয়ে %1$s</string>
+    <string name="home_accuracy_down">▼ গত সপ্তাহের চেয়ে %1$s</string>
+    <string name="home_announcements">ঘোষণা</string>
+    <string name="home_analytics">বিস্তারিত বিশ্লেষণ</string>
+    <string name="home_mastery">দক্ষতা</string>
+    <string name="home_offline">অফলাইন</string>
+</resources>

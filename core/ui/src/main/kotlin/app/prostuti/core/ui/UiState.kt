@@ -68,3 +68,38 @@ fun errorMessage(error: AppError): String = when (error) {
     is AppError.Server -> error.message ?: stringResource(R.string.ui_error_server, error.httpCode)
     is AppError.Unknown -> stringResource(R.string.ui_error_unknown)
 }
+
+/** Shows one-off errors from a [LoadViewModel] as snackbars. */
+@Composable
+fun MessagesEffect(messages: kotlinx.coroutines.flow.Flow<AppError>, host: androidx.compose.material3.SnackbarHostState) {
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val resolver = rememberErrorResolver()
+    androidx.compose.runtime.LaunchedEffect(messages) {
+        messages.collect { host.showSnackbar(resolver(it)) }
+    }
+}
+
+@Composable
+private fun rememberErrorResolver(): (AppError) -> String {
+    val offline = stringResource(R.string.ui_error_offline)
+    val timeout = stringResource(R.string.ui_error_timeout)
+    val session = stringResource(R.string.ui_error_session)
+    val premium = stringResource(R.string.ui_error_premium)
+    val notFound = stringResource(R.string.ui_error_not_found)
+    val rate = stringResource(R.string.ui_error_rate_limited)
+    val unknown = stringResource(R.string.ui_error_unknown)
+    return { e ->
+        when (e) {
+            AppError.NoConnection -> offline
+            AppError.Timeout -> timeout
+            AppError.SessionExpired -> session
+            is AppError.PremiumRequired -> premium
+            AppError.NotFound -> notFound
+            is AppError.RateLimited -> rate
+            is AppError.Validation -> e.message
+            is AppError.Conflict -> e.message
+            is AppError.Server -> e.message ?: unknown
+            is AppError.Unknown -> unknown
+        }
+    }
+}

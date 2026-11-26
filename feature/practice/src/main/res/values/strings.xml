@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pr_title">Practice</string>
+    <string name="pr_daily">Daily challenge</string>
+    <string name="pr_daily_desc">10 questions · 8 minutes · new every day</string>
+    <string name="pr_start">Start</string>
+    <string name="pr_modes">Ways to practise</string>
+    <string name="pr_mode_topic">Topic practice</string>
+    <string name="pr_mode_topic_desc">Pick a topic from the syllabus</string>
+    <string name="pr_mode_weak">Weak topics</string>
+    <string name="pr_mode_weak_desc">Questions from your lowest-mastery topics</string>
+    <string name="pr_mode_wrong">My mistakes</string>
+    <string name="pr_mode_wrong_desc">Retry questions you got wrong</string>
+    <string name="pr_mode_speed">Speed drill</string>
+    <string name="pr_mode_speed_desc">Beat the clock: 30 s per question</string>
+    <string name="pr_mode_accuracy">Accuracy drill</string>
+    <string name="pr_mode_accuracy_desc">No timer; think carefully, aim for 100%</string>
+    <string name="pr_mode_mixed">Mixed subjects</string>
+    <string name="pr_mode_mixed_desc">Shuffle across the whole syllabus</string>
+    <string name="pr_mode_pyq">Previous-year questions</string>
+    <string name="pr_mode_pyq_desc">Official questions only</string>
+    <string name="pr_mode_marathon">Marathon</string>
+    <string name="pr_mode_marathon_desc">50 questions in one sitting</string>
+    <string name="pr_mode_custom">Custom practice</string>
+    <string name="pr_mode_custom_desc">Choose subjects, count, difficulty and time</string>
+    <string name="pr_mock_tests">Model tests</string>
+    <string name="pr_mock_tests_desc">Full exam simulation with negative marking</string>
+    <string name="pr_question_bank">Browse question bank</string>
+
+    <string name="pr_custom_title">Build your practice</string>
+    <string name="pr_subjects">Subjects</string>
+    <string name="pr_all_subjects">All subjects</string>
+    <string name="pr_count">Questions: %1$s</string>
+    <string name="pr_difficulty">Difficulty</string>
+    <string name="pr_any">Any</string>
+    <string name="pr_timer">Time limit</string>
+    <string name="pr_no_timer">No limit</string>
+    <string name="pr_feedback">Show answer after each question</string>
+    <string name="pr_feedback_desc">Turn off to practise exam-style and see answers at the end</string>
+    <string name="pr_offline_only">Use downloaded questions only</string>
+
+    <string name="pr_question_of">%1$s of %2$s</string>
+    <string name="pr_exit">Leave practice?</string>
+    <string name="pr_exit_body">Your answers so far will be lost.</string>
+    <string name="pr_leave">Leave</string>
+    <string name="pr_stay">Keep going</string>
+    <string name="pr_check">Check answer</string>
+    <string name="pr_next">Next</string>
+    <string name="pr_previous">Previous</string>
+    <string name="pr_skip">Skip</string>
+    <string name="pr_finish">Finish</string>
+    <string name="pr_submitting">Checking your answers…</string>
+    <string name="pr_correct">Correct!</string>
+    <string name="pr_incorrect">Not quite</string>
+    <string name="pr_offline_session">Offline practice · result syncs later</string>
+    <string name="pr_time_up">Time\'s up</string>
+    <string name="pr_written_reveal">Show model answer</string>
+
+    <string name="rs_title">Result</string>
+    <string name="rs_score">Score</string>
+    <string name="rs_accuracy">Accuracy</string>
+    <string name="rs_time">Time</string>
+    <string name="rs_correct">Correct</string>
+    <string name="rs_incorrect">Wrong</string>
+    <string name="rs_skipped">Skipped</string>
+    <string name="rs_next_step">Recommended next step</string>
+    <string name="rs_weak">Topics to work on</string>
+    <string name="rs_review">Review answers</string>
+    <string name="rs_done">Done</string>
+    <string name="rs_retry_wrong">Practise mistakes</string>
+    <string name="rs_not_verified">Scored on this device. It will sync when you\'re online.</string>
+    <string name="rs_topic_score">%1$s / %2$s</string>
+    <string name="rs_praise_high">Excellent work</string>
+    <string name="rs_praise_mid">Good progress</string>
+    <string name="rs_praise_low">Keep going — this is how you learn</string>
+</resources>

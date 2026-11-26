@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ln_title">পড়ুন</string>
+    <string name="ln_browse_exams">সব পরীক্ষা</string>
+    <string name="ln_no_target">সিলেবাস দেখতে একটি লক্ষ্য পরীক্ষা বাছাই করুন।</string>
+    <string name="ln_choose_exam">পরীক্ষা বাছাই</string>
+    <string name="ln_overall">%2$sটির মধ্যে %1$sটি টপিক শেষ</string>
+    <string name="ln_subject_meta">%1$sটি অধ্যায় · %2$sটি টপিক</string>
+    <string name="ln_marks">%1$s নম্বর</string>
+    <string name="ln_mastery">দক্ষতা: %1$s</string>
+    <string name="ln_topic_meta">%1$s · %2$sটি প্রশ্ন</string>
+    <string name="ln_shared">%1$sটি পরীক্ষায়</string>
+    <string name="ln_done">শেষ</string>
+    <string name="ln_question_bank">প্রশ্ন ব্যাংক</string>
+
+    <string name="ln_mark_complete">সম্পন্ন হিসেবে চিহ্নিত করুন</string>
+    <string name="ln_completed">সম্পন্ন</string>
+    <string name="ln_practice">এই টপিক অনুশীলন করুন</string>
+    <string name="ln_ask_tutor">টিউটরকে জিজ্ঞেস করুন</string>
+    <string name="ln_materials">পাঠ্য উপকরণ</string>
+    <string name="ln_prereq">আগে এগুলো পড়ুন</string>
+    <string name="ln_prereq_desc">এই টপিক এগুলোর ওপর ভিত্তি করে</string>
+    <string name="ln_shared_desc">আপনার %1$sটি পরীক্ষার অংশ — সবগুলোর জন্য একটিই অগ্রগতি রেকর্ড।</string>
+    <string name="ln_note">আমার নোট</string>
+    <string name="ln_note_hint">যা মনে রাখতে চান লিখুন…</string>
+    <string name="ln_note_save">নোট সংরক্ষণ</string>
+    <string name="ln_note_saved">নোট সংরক্ষিত হয়েছে</string>
+    <string name="ln_download">অফলাইনের জন্য ডাউনলোড</string>
+    <string name="ln_downloaded">অফলাইনে পাওয়া যাবে</string>
+    <string name="ln_download_started">ডাউনলোড হচ্ছে। পড়া চালিয়ে যান।</string>
+    <string name="ln_bookmark">টপিক বুকমার্ক</string>
+    <string name="ln_premium">প্লাস</string>
+    <string name="ln_type_article">নোট</string>
+    <string name="ln_type_audio">অডিও</string>
+    <string name="ln_type_video">ভিডিও</string>
+    <string name="ln_type_pdf">PDF</string>
+    <string name="ln_updated">হালনাগাদ %1$s</string>
+    <string name="ln_summarize">টিউটর দিয়ে সারসংক্ষেপ</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ob_step">ধাপ %1$s / %2$s</string>
+    <string name="ob_next">এগিয়ে যান</string>
+    <string name="ob_back">পেছনে</string>
+    <string name="ob_skip">পরে করব</string>
+    <string name="ob_start">প্রস্তুতি শুরু করুন</string>
+    <string name="ob_save">পরিবর্তন সংরক্ষণ</string>
+    <string name="ob_edit_title">প্রস্তুতির পছন্দসমূহ</string>
+
+    <string name="ob_about_title">চলুন আপনার প্রস্তুতি সাজাই</string>
+    <string name="ob_about_subtitle">প্রায় এক মিনিট লাগবে। পরে সবকিছু বদলানো যাবে।</string>
+    <string name="ob_name">আপনার নাম</string>
+    <string name="ob_language">যে ভাষায় পড়বেন</string>
+
+    <string name="ob_exams_title">কোন পরীক্ষার প্রস্তুতি নিচ্ছেন?</string>
+    <string name="ob_exams_subtitle">এক বা একাধিক বাছাই করুন। কমন টপিক একবার পড়লেই সব পরীক্ষায় গণ্য হবে।</string>
+    <string name="ob_primary">প্রধান লক্ষ্য</string>
+    <string name="ob_make_primary">প্রধান লক্ষ্য করুন</string>
+
+    <string name="ob_date_title">আপনার %1$s পরীক্ষা কবে?</string>
+    <string name="ob_date_subtitle">এই তারিখ থেকে পেছন দিকে পরিকল্পনা করা হবে, শেষ সপ্তাহ রিভিশনের জন্য।</string>
+    <string name="ob_date_unknown">তারিখ এখনও জানি না</string>
+    <string name="ob_date_unknown_desc">৪ মাসের পরিকল্পনা হবে; বিজ্ঞপ্তি এলে সমন্বয় করা হবে।</string>
+    <string name="ob_date_pick">তারিখ বাছাই করুন</string>
+    <string name="ob_date_selected">%1$s · আজ থেকে %2$s দিন</string>
+
+    <string name="ob_time_title">প্রতিদিন কতক্ষণ পড়তে পারবেন?</string>
+    <string name="ob_time_subtitle">বাস্তবসম্মত হোন — যে পরিকল্পনা মানতে পারবেন সেটিই ভালো।</string>
+    <string name="ob_time_30">হালকা — চাকরির পাশাপাশি</string>
+    <string name="ob_time_60">নিয়মিত — বেশিরভাগের পছন্দ</string>
+    <string name="ob_time_120">মনোযোগী — গুরুত্বের সাথে প্রতিদিন</string>
+    <string name="ob_time_180">নিবিড় — পূর্ণকালীন প্রস্তুতি</string>
+
+    <string name="ob_level_title">আপনি কোথা থেকে শুরু করছেন?</string>
+    <string name="ob_level_subtitle">এতে আপনার প্রথম অনুশীলন সেটের কাঠিন্য ঠিক হবে।</string>
+    <string name="ob_level_beginner">একেবারে শুরু</string>
+    <string name="ob_level_beginner_desc">এই পরীক্ষায় নতুন বা দীর্ঘ বিরতির পর ফিরছি</string>
+    <string name="ob_level_intermediate">কিছুটা প্রস্তুতি আছে</string>
+    <string name="ob_level_intermediate_desc">সিলেবাস জানি, কয়েক মাস অনুশীলন করেছি</string>
+    <string name="ob_level_advanced">পরীক্ষার জন্য প্রস্তুত</string>
+    <string name="ob_level_advanced_desc">দুর্বল জায়গা ও সময় ব্যবস্থাপনা ঠিক করছি</string>
+
+    <string name="ob_subjects_title">আপনার শক্তিশালী ও দুর্বল বিষয়</string>
+    <string name="ob_subjects_subtitle">দুর্বল বিষয়ে পরিকল্পনায় বেশি সময় থাকবে। নিশ্চিত না হলে যেমন আছে রাখুন।</string>
+    <string name="ob_weak">দুর্বল</string>
+    <string name="ob_ok">মোটামুটি</string>
+    <string name="ob_strong">ভালো</string>
+    <string name="ob_marks">%1$s নম্বর</string>
+
+    <string name="ob_plan_title">আপনার প্রথম তিন দিন</string>
+    <string name="ob_plan_subtitle">আপনার লক্ষ্য, সময় ও দুর্বল বিষয় থেকে তৈরি। অনুশীলনের সাথে সাথে বদলাবে।</string>
+    <string name="ob_plan_loading">পরিকল্পনা তৈরি হচ্ছে…</string>
+</resources>

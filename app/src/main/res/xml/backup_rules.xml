@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Tokens are encrypted with a device-bound Keystore key; restoring them elsewhere is useless and unsafe. -->
+    <exclude domain="file" path="datastore/secure_session.preferences_pb" />
+    <exclude domain="database" path="prostuti.db" />
+</full-backup-content>
